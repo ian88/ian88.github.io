@@ -12,7 +12,7 @@ about:
     - text: GitHub
       href: https://github.com/ian88
     - text: Email
-      href: ian3beilfuss@gmail.com
+      href: mailto::ian3beilfuss@gmail.com
 ---
 
 Hello! I'm Ian, welcome to my portfolio. I am studying environmental science and cartography & geographic information systems at the University of Wisconsin - Madison. Feel free to browse my cartographic projects and landscape photography.
