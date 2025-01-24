@@ -15,4 +15,4 @@ about:
       href: ian3beilfuss@gmail.com
 ---
 
-Hello! I'm Ian, welcome to my portfolio. I am studying environmental science and cartography & geographic information systems at the University of Wisconsin - Madison. Feel free to browze my cartographic projects and landscape photography.
+Hello! I'm Ian, welcome to my portfolio. I am studying environmental science and cartography & geographic information systems at the University of Wisconsin - Madison. Feel free to browse my cartographic projects and landscape photography.
