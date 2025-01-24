@@ -1,11 +1,18 @@
 ---
-title: "ian88.github.io"
+title: "Ian Beilfuss"
+image: media/headshot.jpg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/ian-beilfuss-9a1150207/
+    - text: GitHub
+      href: https://github.com/ian88
+    - text: Email
+      href: ian3beilfuss@gmail.com
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hello! I'm Ian, welcome to my portfolio. I am studying environmental science and cartography & geographic information systems at the University of Wisconsin - Madison. Feel free to browze my cartographic projects and landscape photography.
