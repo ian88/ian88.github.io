@@ -3,18 +3,34 @@ project:
   output-dir: docs
 
 website:
+  title: "Ian Beilfuss"
+  favicon: Logos/tree.png
   navbar:
-    left:
+    title: false
+    logo: Logos/treeName.png
+    logo-alt: "Alt text for logo"
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - CartographicProjects.qmd
-      - landscapephotos.qmd
+      - href: about.qmd
+        text: About
+      - href: CartographicProjects.qmd
+        text: Cartographic Projects
+      - href: landscapephotos.qmd
+        text: Landscape Photography
+      - href: Resume.pdf
+        text: Resume
+        target: _blank
+        
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2025, Ian Beilfuss
+    right: This website is built with [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/ian88/ian88.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
-    theme: darkly
-    css: styles.css
+    theme: styles.scss
+    mainfont: Raleway
     toc: true
     page-layout: full
 

@@ -1,0 +1,95 @@
+/*-- scss:defaults --*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Fonts
+$monserrat: "Montserrat", serif; 
+$raleway: "Raleway", serif;
+
+// Colors
+$green: #80783A;
+$brown: #3B2F2A;
+$white: #EDEEEF;
+$black: #040F0F;
+
+// Base document colors
+$navbar-bg: $green; // navbar
+$navbar-fg: $white; // navbar foreground elements
+$navbar-hl: $brown; // highlight color when hovering over navbar links
+$body-bg: $white; // page background 
+$body-color: $black; // page text 
+$footer-bg: $green; // footer 
+$link-color: $brown; // hyperlinks 
+
+// Inline code
+$code-bg: $brown; // inline code background color
+$code-color: $green; // inline code text color
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: $monserrat; 
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: $green;
+}
+
+.title {
+  color: $green;
+}
+
+body {
+  font-family: $raleway;
+  line-height: 1.5; // min 1.5 suggested for assistive tech
+  font-size: 19.5px;
+  font-weight: 375;
+  color: $black;
+}
+
+.navbar-brand img { 
+  max-height: 40px;
+  width: auto;
+}
+
+// landing page text
+#bio {
+  font-size: 1.1em;
+}
+
+// landing page icon size
+#landing-icons {
+  font-size: 1.4em;
+  color: $brown;
+}
+
+// larger text
+.large-text {
+  font-size: 25px;
+}
+
+// slightly smaller than default text
+.small-text {
+  font-size: 17px;
+}
+
+// smallest text
+.extra-small-text {
+  font-size: 14px;  
+}
+
+// center align text
+.center-text {
+  text-align: center;
+  left: 50%;
+}
+
+// right-align text
+.right-align-text {
+  text-align: right;
+}
+
+// black-italic text (mostly used for captions)
+.black-italic {
+  color: $black;
+  font-style: italic;
+}
