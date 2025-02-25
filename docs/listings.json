@@ -2,5 +2,11 @@
   {
     "listing": "/landscapephotos.html",
     "items": []
+  },
+  {
+    "listing": "/blogPosts.html",
+    "items": [
+      "/blogs/Post 1 Feb 25, 2025/index.html"
+    ]
   }
 ]
