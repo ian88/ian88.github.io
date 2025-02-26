@@ -1,11 +1,12 @@
 ---
 title: "Feb 26, 2025"
-subtitle: "Initial Thoughts About CZU"
+description: "Initial Thoughts About CZU"
 format: html
+#image: 
+draft: false
 ---
 
-Hello from Prague\! This is my third week in Prague and I’m starting to feel pretty settled in so I decided it's time to do my first blog post\! The last three weeks have been a blur, it simultaneously feels like I’ve been here for no time at all and also multiple months. I’m going to try to post weekly forward, but I’m going to be playing catch up for the last few weeks first. 
-
+Hello from Prague! This is my third week in Prague and I’m starting to feel pretty settled in so I decided it's time to do my first blog post! The last three weeks have been a blur, it simultaneously feels like I’ve been here for no time at all and also multiple months. I’m going to try to post weekly forward, but I’m going to be playing catch up for the last few weeks first.
 
 ## CZU
 
@@ -37,7 +38,7 @@ knitr::include_graphics("media/llamas.JPG")
 
 ## Classes
 
-Classes themselves are probably the biggest letdown of the whole experience so far. I’m used to the rigor of UW classes so it’s jarring to only meet for classes once a week for an hour and a half lecture, and then have virtually no assignments to do between classes. While at CZU I’m in the Faculty of Environmental Sciences and am taking all ecology courses: Wetland Conservation and Management, Forest Ecology, Non-forest Vegetation, and Ecosystem Conservation and Management. Two of my courses have twenty-minute presentations as the only assignment besides the final, another one has some short readings. My last class doesn’t have any assignments, just a couple of half-day field trips, which hopefully are a good experience. It’s nice to have more free time than in Madison, but I am quickly realizing that I need the consistency of assignments to occupy my days and make me feel like I’m doing something productive. The lectures do teach a fair bit of information, but without assignments, I don’t think very much of it will sink in. I’m just hoping I take some knowledge away from the semester so the courses aren’t a total waste. 
+Classes themselves are probably the biggest letdown of the whole experience so far. I’m used to the rigor of UW classes so it’s jarring to only meet for classes once a week for an hour and a half lecture, and then have virtually no assignments to do between classes. While at CZU I’m in the Faculty of Environmental Sciences and am taking all ecology courses: Wetland Conservation and Management, Forest Ecology, Non-forest Vegetation, and Ecosystem Conservation and Management. Two of my courses have twenty-minute presentations as the only assignment besides the final, another one has some short readings. My last class doesn’t have any assignments, just a couple of half-day field trips, which hopefully are a good experience. It’s nice to have more free time than in Madison, but I am quickly realizing that I need the consistency of assignments to occupy my days and make me feel like I’m doing something productive. The lectures do teach a fair bit of information, but without assignments, I don’t think very much of it will sink in. I’m just hoping I take some knowledge away from the semester so the courses aren’t a total waste.
 
 ```{r}
 #| eval: true
@@ -53,7 +54,7 @@ knitr::include_graphics("media/wetlandecologypowerpoint.png")
 
 ## Dorms
 
-The dorms here are less than ideal. I know all dorms are pretty bad, but these seem even worse than where I stayed for freshman year at UW. There are no common rooms, just a very cramped room with a ping-pong table. The dorm rooms are reasonably big but the linoleum floor collects dust like nobody's business. We share a bathroom with two people in the room next door, which isn't too bad, but the bathroom looks like it hasn’t been updated since the 50s and all the cabinets are rusted shut. It's all manageable because the room costs less than $300 per month, but we know people in the same dorm who have a brand new updated bathroom despite paying the same, so we’re salty. The one good thing I can say about the bathroom is that the water pressure and heat are top notch. For cooking, the dorm room comes with a mini fridge and small hot plate, which just barely does the job. I’ve been able to make breakfast burritos, pasta, and curry, but only having one burner feels very limiting. Thankfully the grocery store is only a 10 minute bus ride away and I shop multiple times per week so the mini fridge isn’t too restrictive.
+The dorms here are less than ideal. I know all dorms are pretty bad, but these seem even worse than where I stayed for freshman year at UW. There are no common rooms, just a very cramped room with a ping-pong table. The dorm rooms are reasonably big but the linoleum floor collects dust like nobody's business. We share a bathroom with two people in the room next door, which isn't too bad, but the bathroom looks like it hasn’t been updated since the 50s and all the cabinets are rusted shut. It's all manageable because the room costs less than \$300 per month, but we know people in the same dorm who have a brand new updated bathroom despite paying the same, so we’re salty. The one good thing I can say about the bathroom is that the water pressure and heat are top notch. For cooking, the dorm room comes with a mini fridge and small hot plate, which just barely does the job. I’ve been able to make breakfast burritos, pasta, and curry, but only having one burner feels very limiting. Thankfully the grocery store is only a 10 minute bus ride away and I shop multiple times per week so the mini fridge isn’t too restrictive.
 
 ```{r}
 #| eval: true
@@ -89,4 +90,16 @@ knitr::include_graphics("media/dormbathroom.JPG")
 #| - "Even better after snow!"
 knitr::include_graphics("media/dormview.JPG")
 knitr::include_graphics("media/clearedptich.JPG")
+```
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "hot plate breakfast burrito"
+#| - "hot plate pesto pasta"
+knitr::include_graphics("media/breakfastburrito.jpg")
+knitr::include_graphics("media/pestopasta.jpg")
 ```
