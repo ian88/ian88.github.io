@@ -1,6 +1,6 @@
 ---
 title: "Feb 26, 2025"
-description: "Initial Thoughts About CZU"
+subtitle: "Initial Thoughts About CZU"
 format: html
 ---
 
