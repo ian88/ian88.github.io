@@ -5,6 +5,7 @@ project:
 website:
   title: "Ian Beilfuss"
   favicon: Logos/tree.png
+  google-analytics: "G-K33FSX0VCE"
   navbar:
     title: false
     logo: Logos/treeName.png
