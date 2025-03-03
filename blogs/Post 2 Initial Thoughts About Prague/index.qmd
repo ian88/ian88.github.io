@@ -1,0 +1,97 @@
+---
+title: "March 3, 2025"
+description: "Initial Thoughts About Prague"
+format: html
+image: "media/praguesunset.JPG"
+draft: false
+---
+
+Prague is amazing! I’m sure anyone who’s visited here feels the same, it really is a magical city. I love the architecture and the cobbled streets. Everything feels like it has so much more character and life than anywhere in the US.
+
+## Public Transport
+
+I think my favorite part about Prague might be the public transport. With the student pass, I pay five dollars a month for unlimited access to the metro, buses, and trams to get anywhere in the city. The longest I've ever had to wait for transit is about ten minutes, and it’s always easy to grab a bus into the city from Campus. All of the metros and metro stations are very clean and I've never been worried about my safety or the safety of my belongings even when I've been riding solo. The metros cover the city really well. Most places I've been are less than a 10 minutes walk from the a metro station. It’s going to be difficult to go back to Madison Transit after getting spoiled here. The ticketing system here is fascinating to me. It’s basically an honor system. You buy a pass for a certain amount of time on the PID app but you never have to scan it to get on the transit. On occasion, transit police will come around and ask to see your ticket, but I’ve only been asked once a week at most. The fine if you don’t have a ticket is significant at \$40, so buying a ticket is always worth it, but I can’t help but think about how much an honor system like this would get exploited in the US.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "The decent to the metro"
+#| - "The metro"
+knitr::include_graphics("media/decenttometro.JPG")
+knitr::include_graphics("media/metro.JPG")
+```
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "The buses to campus can be absolutely packed during the school day but thankfully they come every five minutes"
+#| - "There are cables for the trams everywhere!"
+knitr::include_graphics("media/packedbus.JPG")
+knitr::include_graphics("media/tramcables.JPG")
+```
+
+So far I’ve only used the train system twice to other parts of Czechia, more on that in a future post. I’m amazed by the ability to go to almost any small town in Czechia just by train. It is for sure less efficient than driving, but trains run once an hour, sometimes more frequently, so commuting to Prague for work or taking day trips around Czechia only by train is totally feasible. I can’t see the US ever implementing something like this but I love it so much.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "So many train tracks from the central station!"
+#| - "Waiting for the train on the way back from a hike"
+knitr::include_graphics("media/trainstation.JPG")
+knitr::include_graphics("media/trainstop.JPG")
+```
+
+## Drinking Culture
+
+It’s hard to talk about Prague without talking about beer. Seriously, it feels like nearly everything I do in Prague involves drinking. It’s easy to see how Czechia has by far the highest beer consumption of any country. The get-to-know-you events (human bingo, trivia, tour of Prague) for students studying abroad put on by the European Student Network either took place at a bar or ended at one. Even the dorms on campus have bars on the ground floor, not to mention the CZU club. It’s very jarring to see the heavy drinking culture in Madison get outmatched almost instantly in Prague. That being said, there is plenty to do in Prague that doesn’t involve drinking, it’s just harder to find places to hang out that aren’t bars than I would like.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "ESN organized beer pong"
+#| - "The beer heads are so huge here"
+knitr::include_graphics("media/pong.JPG")
+knitr::include_graphics("media/beer.JPG")
+```
+
+## Food
+
+The food in Prague has been great so far, and more importantly it’s cheap! I try to cook as many of my meals as I can, but when I go out, most of the places are \$7 or less for a full meal, although we mostly end up going to chains. Some of my favorites include Bageterie Boulevard, a Czech chain that serves delicious warm baguette sandwiches, Vietfood, which serves surprisingly good Vietnamese and other asian dishes, and any kebab shop we can find. I think kebabs make up half of the meals I’ve eaten in Prague, and that’s not even that much of an exaggeration. Kebab in Prague means a tortilla filled with gyro meat, cabbage, lettuce, onion, garlic sauce, and chilli sauce wrapped up like a burrito. There are kebab shops all over Prague, it's just too easy and delicious to pass up.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "My first meal in Prague was a kebab!"
+#| - "Pad thai"
+knitr::include_graphics("media/kebab.JPG")
+knitr::include_graphics("media/vietfood.JPG")
+```
+
+Embarrassingly, I’ve only gotten Czech food one time, and while it was pretty decent, there’s a good reason Czechia isn’t known for its cuisine. I want to go out for Czech food again in the future, but it’s just so convenient to go to my standbys of Bageterie Boulevard, Vietfood, or kebab.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "Czech food!"
+#| - "Czech dinner with study abroad friends!"
+knitr::include_graphics("media/czechfood.JPG")
+knitr::include_graphics("media/czechdinner.JPG")
+```

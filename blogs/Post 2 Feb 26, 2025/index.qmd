@@ -35,7 +35,7 @@ knitr::include_graphics("media/packedbus.JPG")
 knitr::include_graphics("media/tramcables.JPG")
 ```
 
-So far I’ve only used the train system twice to other parts of Czechia, more on that in a future post. I’m amazed by the ability to go to almost any small town in Czechia just by train. It is for sure less efficient than driving, but trains run once an hour, sometimes more frequently, so commuting to Prague for work or taking day trips around Czechia only by train is totally feasible.  I can’t see the US ever implementing something like this but I love it so much. 
+So far I’ve only used the train system twice to other parts of Czechia, more on that in a future post. I’m amazed by the ability to go to almost any small town in Czechia just by train. It is for sure less efficient than driving, but trains run once an hour, sometimes more frequently, so commuting to Prague for work or taking day trips around Czechia only by train is totally feasible. I can’t see the US ever implementing something like this but I love it so much. 
 
 ```{r}
 #| eval: true
