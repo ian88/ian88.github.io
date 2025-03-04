@@ -1,5 +1,5 @@
 ---
-title: "March 3, 2025"
+title: "March 4, 2025"
 description: "Favorite Places in Prague"
 format: html
 image: "media/bridge.JPG"
