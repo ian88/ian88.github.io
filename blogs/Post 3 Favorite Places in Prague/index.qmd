@@ -2,7 +2,102 @@
 title: "March 3, 2025"
 description: "Favorite Places in Prague"
 format: html
-#image: "media/praguesunset.JPG"
-draft: false
+image: "media/bridge.JPG"
+draft: true
 ---
+## Charles Bridge
 
+The most famous bridge in Prague, so many statues and it gets lit up beautifully at night. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "Brdige by day"
+#| - "Lit up at night"
+knitr::include_graphics("media/charlesbridgeday.JPG")
+knitr::include_graphics("media/charlesbridgenight.JPG")
+```
+
+## Astronomical Clock
+
+The oldest astronomical clock in the world! Constructed back in the early 15th century. The clock itself is fascinatingly intricate and there’s a cool little moving show when the clock strikes the hour. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "The astronomical clock with the Church of Our Lady before Týn"
+#| - "Hourly show!"
+knitr::include_graphics("media/astronomicalclock.JPG")
+knitr::include_graphics("media/astronomicalclockvid.MOV")
+```
+
+## Prague Castle
+
+Probably the most famous building in Prague. The Castle itself I found a little underwhelming because in my head castle mean medieval castle with turrets and a moat. That being said St. Vitus Cathedral in the central of the castle is beautiful and the view of Prague from the castle is incredible! I’ll have to go back at some point and pay to go inside the castle to see the museum and photo gallery.  
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "View from the front of Prague Castle"
+#| - "Prague Cathedral inside the center countyard of the castle"
+knitr::include_graphics("media/praguecastle.JPG")
+knitr::include_graphics("media/praguecathedral.JPG")
+```
+
+## Lennon Wall
+
+Probably the coolest mural wall I’ve seen. So much history in one place. The tradition of painting the wall started during the Soviet oppression of Czechia as a way to defy Soviet control. The Soviets would paid over the wall frequently but the wall would be filled with paintings and inspirational messages the very next day. Our tour guide said that now they host poem days where they string up paper and anyone can come and share a poem for others to read.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 1
+#| column: page
+#| fig-subcap: 
+#| - "Lennon Wall"
+knitr::include_graphics("media/lennonwall.JPG")
+```
+
+
+## Vítkov
+
+Vítkov is a national monument and park on top of a large hill with great views of the city. Would recommend as a sunset location! The monument is super impressive too. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "Beautiful sunset!"
+#| - "Vítkov monument"
+knitr::include_graphics("media/vitkovsunset.JPG")
+knitr::include_graphics("media/vitkov.JPG")
+```
+
+## Dancing House
+
+Dancing house was one of our first destinations as a group. It’s a super cool looking hotel with a rooftop bar and a great view of the Vltava River and downtown Prague!
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 3
+#| column: page
+#| fig-subcap: 
+#| - "Dancing House!"
+#| - "Group pic at the end of our first full day"
+#| - "The view from the rooftop bar"
+knitr::include_graphics("media/dancinghouse.JPG")
+knitr::include_graphics("media/dancinghousegrouppic.JPG")
+knitr::include_graphics("media/dancinghouseview.JPG")
+```
