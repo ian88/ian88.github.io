@@ -2,8 +2,13 @@
 title: "March 4, 2025"
 description: "Favorite Places in Prague"
 format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2025-3-4
+date-modified: last-modified
 image: "media/bridge.JPG"
-draft: true
+draft: false
 ---
 ## Charles Bridge
 

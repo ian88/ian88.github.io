@@ -2,6 +2,11 @@
 title: "March 3, 2025"
 description: "Initial Thoughts About Prague"
 format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2025-3-3
+date-modified: last-modified
 image: "media/praguesunset.JPG"
 draft: false
 ---
