@@ -1,0 +1,57 @@
+---
+title: "March 5, 2025"
+description: "People!"
+format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2025-3-5
+date-modified: last-modified
+image: "media/vitkov.JPG"
+draft: false
+---
+
+## The UW Group
+
+Everyone I’ve met here is so friendly and fun! There are ten of us from UW living in Dormitory JIH so we quickly became good friends. Nine of us started this semester, and Sam started fall semester and is staying the full year, so he’s been a great resource for things to do in Prague. I didn’t know any of them before coming to Prague, so it's been great to meet new people I’ll remain friends with back at UW. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 1
+#| column: page
+#| fig-subcap: 
+#| - "The UW group!   
+#| Boys from left to right: Rafe, Peter, me, Patrick (roommate), Tristan. 
+#| Girls from left to right: Amelia, Maddie, Violette, Aubrey"
+knitr::include_graphics("media/dancinghouse.JPG")
+```
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "Another group pic with Sam 4th from the left"
+#| - "First night"
+knitr::include_graphics("media/vitkov.JPG")
+knitr::include_graphics("media/firstnight.JPG")
+```
+
+## The International Group
+
+The ESN organized events have been a great way to meet other international students! During the first events, we met a great group of French who have quickly become our closest non-American friends. Artemis from Greece has also joined our close circle, and came with us to Budapest last weekend! I’ve also become friends with people from Germany, Austria, South Korea, Turkey and Brazil! Many of them live at the external dormitory, which is half an hour from campus, so it can be difficult to make plans, but it’s fun to see them at classes and ESN events. I haven't met any Czechs yet, the ESN events aren't geared towards Czech students and my classes are mainly international students. I have embarrassingly few group pictures with everyone, I'll have to work on that.
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "Czech dinner with the French!
+#| From left to right: me, Patrick, Ugo, Rafe, Anaëlle, Liam, Tristan, Séraphine, Mathilde"
+#| - "Group pic on Charles Bridge"
+knitr::include_graphics("media/czechdinner.JPG")
+knitr::include_graphics("media/charlesbridge.JPG")
+```
