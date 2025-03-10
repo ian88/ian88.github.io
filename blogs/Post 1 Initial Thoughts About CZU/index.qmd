@@ -20,23 +20,15 @@ I’m spending my semester abroad at the Czech University of Life Sciences (Čes
 ```{r}
 #| eval: true
 #| echo: false
-#| layout-ncol: 2
+#| layout-ncol: 4
 #| column: page
 #| fig-subcap: 
 #| - "Map of the CZU campus"
 #| - "Campus is beautiful when it snows!"
-knitr::include_graphics("media/campusmap.JPG")
-knitr::include_graphics("media/snowycampus1.JPG")
-```
-
-```{r}
-#| eval: true
-#| echo: false
-#| layout-ncol: 2
-#| column: page
-#| fig-subcap: 
 #| - "The CZU farm with pigs and cows!"
 #| - "Campus llamas!"
+knitr::include_graphics("media/campusmap.JPG")
+knitr::include_graphics("media/snowycampus1.JPG")
 knitr::include_graphics("media/czufarm.JPG")
 knitr::include_graphics("media/llamas.JPG")
 ```
@@ -64,23 +56,15 @@ The dorms here are less than ideal. I know all dorms are pretty bad, but these s
 ```{r}
 #| eval: true
 #| echo: false
-#| layout-ncol: 2
+#| layout-ncol: 4
 #| column: page
 #| fig-subcap: 
 #| - "Kolej JIH exterior"
 #| - "My dorm room"
-knitr::include_graphics("media/dormexterior.JPG")
-knitr::include_graphics("media/dormbedroom.JPG")
-```
-
-```{r}
-#| eval: true
-#| echo: false
-#| layout-ncol: 2
-#| column: page
-#| fig-subcap: 
 #| - "Cooking all of my meals on one hotplate is not going to be enjoyable"
 #| - "very subpar bathroom, if only the cabinets weren't rusted shut"
+knitr::include_graphics("media/dormexterior.JPG")
+knitr::include_graphics("media/dormbedroom.JPG")
 knitr::include_graphics("media/dormkitchen.JPG")
 knitr::include_graphics("media/dormbathroom.JPG")
 ```
@@ -88,23 +72,16 @@ knitr::include_graphics("media/dormbathroom.JPG")
 ```{r}
 #| eval: true
 #| echo: false
-#| layout-ncol: 2
+#| layout-ncol: 4
 #| column: page
 #| fig-subcap: 
 #| - "The view from my dorm room is fantatic!"
 #| - "Even better after snow!"
-knitr::include_graphics("media/dormview.JPG")
-knitr::include_graphics("media/clearedptich.JPG")
-```
-
-```{r}
-#| eval: true
-#| echo: false
-#| layout-ncol: 2
-#| column: page
-#| fig-subcap: 
 #| - "hot plate breakfast burrito"
 #| - "hot plate pesto pasta"
+knitr::include_graphics("media/dormview.JPG")
+knitr::include_graphics("media/clearedptich.JPG")
 knitr::include_graphics("media/breakfastburrito.jpg")
 knitr::include_graphics("media/pestopasta.jpg")
 ```
+

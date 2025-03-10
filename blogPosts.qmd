@@ -1,6 +1,6 @@
 ---
 title: "Blog posts"
-subtitle: "Follow along and learn about my semester abroad in Prague!" 
+subtitle: "Follow along and learn about my semester abroad in Prague!"
 listing:
   contents: blogs
   feed: true
