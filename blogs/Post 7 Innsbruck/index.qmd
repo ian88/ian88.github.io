@@ -1,6 +1,6 @@
 ---
 title: "March 17, 2025"
-description: "Innsbruck"
+description: "Innsbruck, March 6-9"
 format: html
 author:
   - name: Ian Beilfuss
