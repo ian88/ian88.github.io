@@ -27,10 +27,17 @@ $code-bg: $brown; // inline code background color
 $code-color: $green; // inline code text color
 
 /*-- scss:rules --*/
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: $monserrat; 
   letter-spacing: 1px;
   font-weight: 700;
+  color: $green;
+}
+h3, h4, h5, h6 {
+  font-family: $monserrat; 
+  letter-spacing: 1px;
+  font-size: 25;
+  font-weight: 500;
   color: $green;
 }
 
