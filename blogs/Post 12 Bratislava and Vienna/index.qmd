@@ -141,7 +141,7 @@ I loved the Belevdere Palace! Really beautiful gardens to walk through and enjoy
 #| - "Belvedere"
 #| - "Lower Belvedere"
 #| - "Group pic"
-knitr::include_graphics("media/cover.JPG")
+knitr::include_graphics("media/belvedere.jpg")
 knitr::include_graphics("media/belvedere1.JPG")
 knitr::include_graphics("media/group2.JPG")
 ```
