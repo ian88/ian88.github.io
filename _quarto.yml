@@ -16,13 +16,13 @@ website:
         text: Home
 #      - href: about.qmd
 #        text: About
-#      - href: CartographicProjects.qmd
-#        text: Cartographic Projects
+      - href: CartographicProjects.qmd
+        text: Cartographic Projects
       - href: landscapephotos.qmd
         text: Landscape Photography
       - href: blogPosts.qmd
         text: Prague Blog
-      - href: Resume.pdf
+      - href: resume.qmd
         text: Resume
         target: _blank
         

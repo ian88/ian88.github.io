@@ -1,7 +1,14 @@
 [
   {
-    "listing": "/landscapephotos.html",
+    "listing": "/photogallery.html",
     "items": []
+  },
+  {
+    "listing": "/CartographicProjects.html",
+    "items": [
+      "/cartography/metadata.html",
+      "/cartography/V - Custom Tileset/index.html"
+    ]
   },
   {
     "listing": "/blogPosts.html",
@@ -21,5 +28,9 @@
       "/blogs/Post 2 Initial Thoughts About Prague/index.html",
       "/blogs/Post 1 Initial Thoughts About CZU/index.html"
     ]
+  },
+  {
+    "listing": "/landscapephotos.html",
+    "items": []
   }
 ]

@@ -1,0 +1,153 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>V</title>
+
+        <!--custom stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+        
+
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="lib/scrollmap.css">
+
+    </head>
+
+    <body>
+        <div class="content">
+             <!--title block, background image is title image-->
+            <div class="row" style="background-image:url(assets/title.png); background-size:contain;">
+                <div class="center title">
+                    <!--title text-->
+                    <h1>V MAP</h1>
+                    <!--subtitle or author-->
+                    <h4 class="author">Ian Beilfuss</h4>
+                </div>
+            </div>
+            <!--text content block-->
+            <div class="row">
+                <div class="center">
+                    <h2 class="aachen">This explainer describes a web map based on the graphic novel V for Vendetta.</h2>
+                </div>
+            </div>
+            <!--side by side text and image-->
+            <div class="row">
+                <div class="left">
+                    <img class="fit" src="assets/Inspiration Images.png">
+                </div>
+                <div class="right">
+                    <h2 class="vert-center aachen">V takes inspiration from the dark, noir elements of the graphic novel</h2>
+                </div>
+            </div>
+
+            <!--side by side text and image-->
+            <div class="row">
+                <div class="left">
+                    <h2 class="vert-center aachen">For natural features, state, and country labels I used Aachen Bold, a font based on the V for Vendetta logo in the comic book</h2>
+                </div>
+                <div class="right">
+                    <img class="fit" src="assets/Natural Features and Countries.png">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <img class="fit" src="assets/Cities and roads.png">
+                </div>
+                <div class="right">
+                    <h2 class="vert-center Aachen"> For cities and road labels I used Cool Book Sands, a font based on the V for Vendetta logo in the 2005 film adaptation</h2>
+                </div>
+            </div>
+
+            <!--background images with text scrolling over them (sidecar)-->
+            <div class="scroll-container">    
+                <!--background images-->
+                <div class="background-item">
+                    <img src="assets/Chicago.png" data-slide="1" class="fill">
+                    <img src="assets/Florida.png" data-slide="2" class="fill hidden">
+                    <img src="assets/Bahamas.png" data-slide="3" class="fill hidden">
+                    <img src="assets/Amsterdam.png" data-slide="4" class="fill hidden">
+                </div>
+                <!--foreground text blocks-->
+                <div class="foreground-item">
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">Chicago, IL looks like this.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">Orland, Tampa, and other cities resemble explosions, highlighting the themes of violence in V for Vendetta</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">The the dark water, and high contrast with the land in the Bahamas showcase the noir themes of the novel.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded">
+                            <p class="no-margin">The guy fawkes mask, the most famous icon of the novel, representing resistance, rebellion, and anonymity, is present as a city marker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="center-wide">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+                        <!--slideshow content goes here-->
+                        <div class="slide">
+                            <img src="assets/slide1.png">
+                            <p class="caption">A zoomed-out view of the V style.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/slide2.png">
+                            <p class="caption">A mid-scale view centered on Madison, Wisconsin.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/slide3.png">
+                            <p class="caption">A large-scale view of the Madison region.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/slide4.png">
+                            <p class="caption">The Madison Isthmus.</p>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev">&#10094;</a>
+                        <a class="next">&#10095;</a>
+
+                        <!-- The dots/circles -->
+                        <div class="slideshow-dots">
+                            <span class="dot" id="1"></span>
+                            <span class="dot" id="2"></span>
+                            <span class="dot" id="3"></span>
+                            <span class="dot" id="4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="center-wide">
+                    <iframe width='100%' height='1000px' src="https://api.mapbox.com/styles/v1/ibeilfuss/cmgkzx2yz001601rtbqvf8byd.html?title=false&access_token=pk.eyJ1IjoiaWJlaWxmdXNzIiwiYSI6ImNtZ2t6aHNjZjB5YzQyam4yZGVrMm83bTIifQ.yt5N25nrRBAhSI_rE8WS1A&zoomwheel=false#2.47/41.97/-96.6" title="V" style="border:none;"></iframe>
+                </div>
+            </div>
+
+            <!--credits-->
+            <div class="row no-margin">
+                <div class="center">
+                    <div class="credits">
+                        <h3><b>Credits:</b></h3>
+                        <h3>Map created with Mapbox Studio</h3>
+                        <h3>Data from openstreetmap</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--external scripts-->
+        <script type="text/javascript" src="lib/scrollmap.js"></script>
+    </body>
+</html>

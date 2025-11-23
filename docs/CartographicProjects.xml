@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ian Beilfuss</title>
+<link>https://ian88.github.io/CartographicProjects.html</link>
+<atom:link href="https://ian88.github.io/CartographicProjects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Fri, 07 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>V: Custom Tileset</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/cartography/V - Custom Tileset/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<iframe width="100%" height="800px" src="https://api.mapbox.com/styles/v1/ibeilfuss/cmgkzx2yz001601rtbqvf8byd.html?title=false&amp;access_token=pk.eyJ1IjoiaWJlaWxmdXNzIiwiYSI6ImNtZ2t6aHNjZjB5YzQyam4yZGVrMm83bTIifQ.yt5N25nrRBAhSI_rE8WS1A&amp;zoomwheel=false#0/0/0" title="V" style="border:none;">
+</iframe>
+
+<iframe src="https://ian88.github.io/V_Tileset.github.io/" width="100%" height="600px" frameborder="0" allowfullscreen="" allow="geolocation">
+</iframe>
+<p><a href="https://ian88.github.io/V_Tileset.github.io/">View the Explainer in a New Tab</a></p>
+
+
+
+ ]]></description>
+  <guid>https://ian88.github.io/cartography/V - Custom Tileset/</guid>
+  <pubDate>Fri, 07 Nov 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/cartography/V - Custom Tileset/media/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>_metadata</title>
+  <link>https://ian88.github.io/cartography/metadata.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ian88.github.io/cartography/metadata.html</guid>
+  <pubDate>Sun, 23 Nov 2025 21:09:27 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -12,6 +12,7 @@ listing:
   filter-ui: false
   categories: false
 ---
+
 ```         
 ::: {#listing-gallery} :::
 ```

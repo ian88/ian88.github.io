@@ -84,4 +84,3 @@ knitr::include_graphics("media/clearedptich.JPG")
 knitr::include_graphics("media/breakfastburrito.jpg")
 knitr::include_graphics("media/pestopasta.jpg")
 ```
-

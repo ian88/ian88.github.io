@@ -1,0 +1,26 @@
+---
+title: "Mapping Africa's Physical Geography"
+description: "An exercise in topography"
+format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2024-10-14
+date-modified: last-modified
+image: "media/Map.png"
+draft: true
+---
+
+This map was created for a lab assignment in Geography 370: Introduction to Cartography at UW-Madison. The goal of the lab was to create a reference map of Africa including all 55 Capital cities, 47 additional cities, 10 marine areas, 5 major rivers, and 55 natural landscape features. I used Adobe Illustrator for a significant portion of this lab to organize all of the labels in a coherent way that maximized clarity. The final reference map is shown below along with the initial version exported from ArcGiS Pro before any label styling and adjustments were completed.
+
+```{r}
+#| eval: true
+#| echo: false
+knitr::include_graphics("media/Map.png")
+```
+
+```{r}
+#| eval: true
+#| echo: false
+knitr::include_graphics("media/Initial.png")
+```
