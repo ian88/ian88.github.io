@@ -8,10 +8,10 @@ author:
 date: 2024-10-24
 date-modified: last-modified
 image: "media/Map.jpg"
-draft: true
+draft: false
 ---
 
-This map was created for a lab assignment in Geography 370: Introduction to Cartography at UW-Madison. The goal of the lab was to create a choropleth map to visualize state spending on drought disasters over the past half century, especially as drought frequency increases due to climate change. I used data from the National Atmospheric and Oceanic Administration and the Bureau of Economic Analysis. GIS analysis was completed in ArcGIS Pro and design enhancements made in Adobe Illustrator. 
+This map was created for a lab assignment in Geography 370: Introduction to Cartography at UW-Madison. The goal of the lab was to create a choropleth map to visualize state spending on drought disasters over the past half century, especially as drought frequency increases due to climate change. I used data from the National Atmospheric and Oceanic Administration and the Bureau of Economic Analysis. GIS analysis was completed in ArcGIS Pro and design enhancements made in Adobe Illustrator.
 
 ```{r}
 #| eval: true

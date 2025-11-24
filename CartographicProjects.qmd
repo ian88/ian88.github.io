@@ -1,6 +1,6 @@
 ---
-title: "Cartographic Projects"
-subtitle: "Browse a collection of my favorite cartographic projects"
+title: "Cartography"
+subtitle: "Browse a collection of my favorite cartography projects"
 listing:
   contents: cartography
   feed: true

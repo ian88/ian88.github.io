@@ -36,20 +36,123 @@
   <media:content url="https://ian88.github.io/cartography/V - Custom Tileset/media/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>_metadata</title>
-  <link>https://ian88.github.io/cartography/metadata.html</link>
+  <title>Land on Fire</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/cartography/Land on Fire/</link>
   <description><![CDATA[ 
 
 
 
 
-
+<p>As you may have seen, multiple of my cartographic projects center around the California Wildfires. I’ve been following the trends, causes, and effects of wildfires in California for multiple years. I created Land on Fire to share what I have learned while following this story.</p>
+<p>The severity of wildfires has been well-documented in the media, particularly over the past decade. However, many of these stories only discuss the extent, severity, and firefighting techniques used in association with the fire. I wanted to ensure that I was telling a more comprehensive story to help contextualize the root causes of California’s increasing wildfires.&nbsp;</p>
+<p>ArcGIS StoryMaps was chosen as the medium for my project to make it more interactive and to provide more information than I could convey through an infographic. The graphs in my project were created using Python, with coding help from ChatGPT. All maps were made in ArcGIS Pro, with design enhancements made with Adobe Illustrator.&nbsp;</p>
+<p>I hope this story can provide a visually compelling and informative look at the causes and effects of California wildfires.&nbsp;</p>
+<iframe src="https://storymaps.arcgis.com/stories/d4733f62afe94a1ab81b37e429b072bc" width="100%" height="800px" frameborder="0" allowfullscreen="" allow="geolocation">
+</iframe>
 
 
 
  ]]></description>
-  <guid>https://ian88.github.io/cartography/metadata.html</guid>
-  <pubDate>Sun, 23 Nov 2025 21:09:27 GMT</pubDate>
+  <guid>https://ian88.github.io/cartography/Land on Fire/</guid>
+  <pubDate>Thu, 09 Oct 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/cartography/Land on Fire/media/cover.png" medium="image" type="image/png" height="77" width="144"/>
+</item>
+<item>
+  <title>Mapping California’s Large Wildfires</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I created this map as the final project for Geography 370: Introduction to Cartography at UW-Madison to draw attention to how the frequency of Wildfires in California has changed from the 20th to the 21st century</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/media/Map.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/</guid>
+  <pubDate>Wed, 11 Dec 2024 06:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/media/cover.png" medium="image" type="image/png" height="153" width="144"/>
+</item>
+<item>
+  <title>The Cost of Billion-Dollar Droughts</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This map was created for a lab assignment in Geography 370: Introduction to Cartography at UW-Madison. The goal of the lab was to create a choropleth map to visualize state spending on drought disasters over the past half century, especially as drought frequency increases due to climate change. I used data from the National Atmospheric and Oceanic Administration and the Bureau of Economic Analysis. GIS analysis was completed in ArcGIS Pro and design enhancements made in Adobe Illustrator.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/media/Map.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/</guid>
+  <pubDate>Thu, 24 Oct 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/media/Map.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Mapping Africa’s Physical Geography</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This map was created for a lab assignment in Geography 370: Introduction to Cartography at UW-Madison. The goal of the lab was to create a reference map of Africa including all 55 Capital cities, 47 additional cities, 10 marine areas, 5 major rivers, and 55 natural landscape features. I used Adobe Illustrator for a significant portion of this lab to organize all of the labels in a coherent way that maximized clarity. The final reference map is shown below along with the initial version exported from ArcGiS Pro before any label styling and adjustments were completed.</p>
+<section id="final-map" class="level2">
+<h2 class="anchored" data-anchor-id="final-map">Final Map</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/media/Map.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="before-label-adjustments" class="level2">
+<h2 class="anchored" data-anchor-id="before-label-adjustments">Before Label Adjustments</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/media/Initial.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/</guid>
+  <pubDate>Mon, 14 Oct 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/media/Map.png" medium="image" type="image/png" height="189" width="144"/>
 </item>
 </channel>
 </rss>
