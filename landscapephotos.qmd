@@ -1,7 +1,6 @@
 ---
-title: "Landscape Photography"
+title: "Photography"
 subtitle: "A selection of my favorite photos" 
-
 page-layout: full
 listing:
   id: listing-gallery

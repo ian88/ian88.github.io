@@ -11,13 +11,13 @@ image: "media/cover.png"
 draft: false
 ---
 
-As you may have seen, multiple of my cartographic projects center around the California Wildfires. I’ve been following the trends, causes, and effects of wildfires in California for multiple years. I created Land on Fire to share what I have learned while following this story.
+As you may have seen, this is my second cartographic project that centers around the California Wildfires. I’ve been following the trends, causes, and effects of wildfires in California for multiple years. I created Land on Fire to share what I have learned while following this story.
 
 The severity of wildfires has been well-documented in the media, particularly over the past decade. However, many of these stories only discuss the extent, severity, and firefighting techniques used in association with the fire. I wanted to ensure that I was telling a more comprehensive story to help contextualize the root causes of California’s increasing wildfires. 
 
 ArcGIS StoryMaps was chosen as the medium for my project to make it more interactive and to provide more information than I could convey through an infographic. The graphs in my project were created using Python, with coding help from ChatGPT. All maps were made in ArcGIS Pro, with design enhancements made with Adobe Illustrator. 
 
-I hope this story can provide a visually compelling and informative look at the causes and effects of California wildfires. 
+I hope this story can provide a visually compelling and informative look at the causes and effects of California wildfires.
 
 <iframe src="https://storymaps.arcgis.com/stories/d4733f62afe94a1ab81b37e429b072bc" width="100%" height="800px" frameborder="0" allowfullscreen allow="geolocation">
 

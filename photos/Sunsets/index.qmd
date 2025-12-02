@@ -1,0 +1,19 @@
+---
+title: "Sunsets"
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+image: "media/Idaho1.jpg"
+page-layout: full
+listing:
+  id: listing-gallery
+  template: gallery.ejs
+  contents:
+    - media/*.jpg
+  sort-ui: false
+  filter-ui: false
+  categories: false
+draft: false
+---
+
+::: {#listing-gallery} :::

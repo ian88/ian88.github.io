@@ -11,11 +11,16 @@ image: "media/cover.jpg"
 draft: false
 ---
 
+For this project, I created a custom tileset in MapBox Studio based on V for Vendetta, a 1982 graphic novel written by Alan Moore and illustrated by David Lloyd, and the 2005 film adaptation, directed by James McTeigue.
+
+The tileset uses fonts and colors drawn directly from the graphic novel and film to mimic the muted, noir aesthetic of V for Vendetta. Additionally, I brought in pictorial elements from the graphic novel, including the Guy Faux mask as a city indicator and an explosion to cover the city's extent. More details on the design choices I implemented can be found in the explainer below. 
+
 </iframe>
 
 <iframe width="100%" height="800px" src="https://api.mapbox.com/styles/v1/ibeilfuss/cmgkzx2yz001601rtbqvf8byd.html?title=false&amp;access_token=pk.eyJ1IjoiaWJlaWxmdXNzIiwiYSI6ImNtZ2t6aHNjZjB5YzQyam4yZGVrMm83bTIifQ.yt5N25nrRBAhSI_rE8WS1A&amp;zoomwheel=false#0/0/0" title="V" style="border:none;">
 
 </iframe>
+
 </iframe>
 
 <iframe src="https://ian88.github.io/V_Tileset.github.io/" width="100%" height="600px" frameborder="0" allowfullscreen frameborder="0" allow="geolocation">

@@ -17,9 +17,9 @@ website:
 #      - href: about.qmd
 #        text: About
       - href: CartographicProjects.qmd
-        text: Cartographic Projects
-      - href: landscapephotos.qmd
-        text: Landscape Photography
+        text: Cartography
+      - href: Photography.qmd
+        text: Photography
       - href: blogPosts.qmd
         text: Prague Blog
       - href: resume.qmd

@@ -1,13 +1,104 @@
 [
   {
+    "listing": "/Photography.html",
+    "items": [
+      "/photos/Astrophotography/index.html",
+      "/photos/Canyons/index.html",
+      "/photos/Caves/index.html",
+      "/photos/Cities/index.html",
+      "/photos/Coasts/index.html",
+      "/photos/Deserts/index.html",
+      "/photos/Forests/index.html",
+      "/photos/Grasslands/index.html",
+      "/photos/Misc/index.html",
+      "/photos/Mountains/index.html",
+      "/photos/Sunsets/index.html",
+      "/photos/Waterfalls/index.html",
+      "/photos/Wildlife/index.html"
+    ]
+  },
+  {
+    "listing": "/landscapephotos.html",
+    "items": []
+  },
+  {
     "listing": "/photogallery.html",
+    "items": [
+      "/photos/Astrophotography/index.html",
+      "/photos/Canyons/index.html",
+      "/photos/Caves/index.html",
+      "/photos/Cities/index.html",
+      "/photos/Coasts/index.html",
+      "/photos/Deserts/index.html",
+      "/photos/Forests/index.html",
+      "/photos/Grasslands/index.html",
+      "/photos/Misc/index.html",
+      "/photos/Mountains/index.html",
+      "/photos/Sunsets/index.html",
+      "/photos/Waterfalls/index.html",
+      "/photos/Wildlife/index.html"
+    ]
+  },
+  {
+    "listing": "/photos/Astrophotography/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Canyons/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Caves/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Forests/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Deserts/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Cities/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Coasts/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Grasslands/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Misc/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Mountains/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Sunsets/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Waterfalls/index.html",
+    "items": []
+  },
+  {
+    "listing": "/photos/Wildlife/index.html",
     "items": []
   },
   {
     "listing": "/CartographicProjects.html",
     "items": [
-      "/cartography/metadata.html",
-      "/cartography/V - Custom Tileset/index.html"
+      "/cartography/V - Custom Tileset/index.html",
+      "/cartography/Land on Fire/index.html",
+      "/cartography/Increasing Frequency of Large California Wildfires/index.html",
+      "/cartography/The Cost of Billion-Dollar Droughts/index.html",
+      "/cartography/Mapping Africa’s Physical Geography/index.html"
     ]
   },
   {
@@ -28,9 +119,5 @@
       "/blogs/Post 2 Initial Thoughts About Prague/index.html",
       "/blogs/Post 1 Initial Thoughts About CZU/index.html"
     ]
-  },
-  {
-    "listing": "/landscapephotos.html",
-    "items": []
   }
 ]
