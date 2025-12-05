@@ -5,6 +5,8 @@ author:
     url: https://ian88.github.io/
 image: "media/Crocodile.jpeg"
 page-layout: full
+categories: 
+  - Wildlife
 listing:
   id: listing-gallery
   template: gallery.ejs

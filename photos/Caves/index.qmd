@@ -6,6 +6,8 @@ author:
     url: https://ian88.github.io/
 image: "media/Carlsbad1.jpg"
 page-layout: full
+categories: 
+  - Close-ups
 listing:
   id: listing-gallery
   template: gallery.ejs
@@ -13,7 +15,8 @@ listing:
     - media/*.jpg
   sort-ui: false
   filter-ui: false
-  categories: false
+  #categories: true
+  #- Close-ups
 draft: false
 ---
 

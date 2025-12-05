@@ -8,6 +8,8 @@ author:
 date: 2025-4-2
 date-modified: last-modified
 image: "media/cover.JPG"
+categories: 
+  - Travel
 draft: false
 ---
 

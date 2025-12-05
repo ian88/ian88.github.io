@@ -7,7 +7,9 @@ author:
     url: https://ian88.github.io/
 date: 2025-2-26
 date-modified: last-modified
-#image: 
+categories: 
+  - Czechia
+image: Media/campusmap.jpg
 draft: false
 ---
 

@@ -8,12 +8,14 @@ author:
 date: 2025-3-10
 date-modified: last-modified
 image: "media/kutnahora.JPG"
+categories: 
+  - Czechia
 draft: false
 ---
 
 ## Hiking Trip
 
-On February 8th, ESN organized a hiking trip in the Czech countryside near Kamenný Přívoz village, about an hour's train ride south of Prague (I love the train network here!!). We hiked seven miles following the Sázava river. The landscape reminded me a lot of Oregon, with rolling hills and bluffs, and lots of evergreens. Getting out of the city on a hike and talking with other CZU students was great! My favorite part was the small houses built on the side of the bluffs! I have no idea how they get down to their houses, let alone how they built them. It looked like such a peaceful life living on the river, I’m envious. I want to do more hiking day trips around Czechia, Bohemian Switzerland National Park might be next. 
+On February 8th, ESN organized a hiking trip in the Czech countryside near Kamenný Přívoz village, about an hour's train ride south of Prague (I love the train network here!!). We hiked seven miles following the Sázava river. The landscape reminded me a lot of Oregon, with rolling hills and bluffs, and lots of evergreens. Getting out of the city on a hike and talking with other CZU students was great! My favorite part was the small houses built on the side of the bluffs! I have no idea how they get down to their houses, let alone how they built them. It looked like such a peaceful life living on the river, I’m envious. I want to do more hiking day trips around Czechia, Bohemian Switzerland National Park might be next.
 
 ```{r}
 #| eval: true
@@ -52,7 +54,7 @@ knitr::include_graphics("media/house3.JPG")
 
 ## Kutná Hora
 
-On February 16, our group took a day trip to Kutná Hora, which was also just an hour away by train (I promise I’ll stop praising the trains eventually). Kutná Hora is known for the Sedlec Ossuary, also called the Bone Church. The inside of the church is pretty incredible, there are pyramid stacks and hanging arrangements built from thousands of bones of people from the 14th and 15th centuries who died from the bubonic plague and Hussite Wars. We also visited the Cathedral of Assumption of Our Lady and St. John the Baptist. The interior had a lot of beautiful murals and gold statues. I love all of the old churches and cathedrals in Europe, even the ones in small towns are so amazingly intricate. 
+On February 16, our group took a day trip to Kutná Hora, which was also just an hour away by train (I promise I’ll stop praising the trains eventually). Kutná Hora is known for the Sedlec Ossuary, also called the Bone Church. The inside of the church is pretty incredible, there are pyramid stacks and hanging arrangements built from thousands of bones of people from the 14th and 15th centuries who died from the bubonic plague and Hussite Wars. We also visited the Cathedral of Assumption of Our Lady and St. John the Baptist. The interior had a lot of beautiful murals and gold statues. I love all of the old churches and cathedrals in Europe, even the ones in small towns are so amazingly intricate.
 
 ```{r}
 #| eval: true

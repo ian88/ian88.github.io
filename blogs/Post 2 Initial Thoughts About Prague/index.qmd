@@ -8,6 +8,8 @@ author:
 date: 2025-3-3
 date-modified: last-modified
 image: "media/praguesunset.JPG"
+categories: 
+  - Czechia
 draft: false
 ---
 

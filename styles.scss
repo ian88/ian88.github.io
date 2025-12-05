@@ -10,7 +10,7 @@ $raleway: "Raleway", serif;
 // Colors
 $green: #80783A;
 $brown: #3B2F2A;
-$white: #EDEEEF;
+$white: #Fdfdfd;
 $black: #040F0F;
 
 // Base document colors
@@ -117,3 +117,33 @@ body {
   font-style: italic;
 }
 
+// Shadow variables for easy customization
+$shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-light-hover: 0 4px 8px rgba(0, 0, 0, 0.30);
+$transition-speed: 0.3s;
+
+// Target standard card elements
+.card {
+  box-shadow: $shadow-light !important;
+  transition: box-shadow $transition-speed ease !important;
+
+  // Hover effect for interactive feel
+  &:hover {
+    box-shadow: $shadow-light-hover !important;
+  }
+}
+
+// Target Quarto-specific card containers
+.quarto-grid-item,
+.listing-card {
+  .card {
+    box-shadow: $shadow-light !important;
+  }
+}
+
+// For listing pages with card layouts
+.quarto-listing-card {
+  .card {
+    box-shadow: $shadow-light !important;
+  }
+}

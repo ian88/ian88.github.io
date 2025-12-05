@@ -5,6 +5,8 @@ author:
     url: https://ian88.github.io/
 image: "media/Tent.jpg"
 page-layout: full
+categories: 
+  - Close-ups
 listing:
   id: listing-gallery
   template: gallery.ejs
@@ -16,4 +18,5 @@ listing:
 draft: false
 ---
 
-::: {#listing-gallery} :::
+::: {#listing-gallery}
+:::

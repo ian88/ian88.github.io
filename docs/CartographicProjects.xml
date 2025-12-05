@@ -23,7 +23,7 @@
 <p>For this project, I created a custom tileset in MapBox Studio based on V for Vendetta, a 1982 graphic novel written by Alan Moore and illustrated by David Lloyd, and the 2005 film adaptation, directed by James McTeigue.</p>
 <p>The tileset uses fonts and colors drawn directly from the graphic novel and film to mimic the muted, noir aesthetic of V for Vendetta. Additionally, I brought in pictorial elements from the graphic novel, including the Guy Faux mask as a city indicator and an explosion to cover the city’s extent. More details on the design choices I implemented can be found in the explainer below.&nbsp;</p>
 
-<iframe width="100%" height="800px" src="https://api.mapbox.com/styles/v1/ibeilfuss/cmgkzx2yz001601rtbqvf8byd.html?title=false&amp;access_token=pk.eyJ1IjoiaWJlaWxmdXNzIiwiYSI6ImNtZ2t6aHNjZjB5YzQyam4yZGVrMm83bTIifQ.yt5N25nrRBAhSI_rE8WS1A&amp;zoomwheel=false#0/0/0" title="V" style="border:none;">
+<iframe width="100%" height="800px" src="https://api.mapbox.com/styles/v1/ibeilfuss/cmgkzx2yz001601rtbqvf8byd.html?title=view&amp;access_token=pk.eyJ1IjoiaWJlaWxmdXNzIiwiYSI6ImNtZ2t6aHNjZjB5YzQyam4yZGVrMm83bTIifQ.yt5N25nrRBAhSI_rE8WS1A&amp;zoomwheel=true&amp;fresh=true#0/0/0" title="V" style="border:none;">
 </iframe>
 
 <iframe src="https://ian88.github.io/V_Tileset.github.io/" width="100%" height="600px" frameborder="0" allowfullscreen="" allow="geolocation">
@@ -33,6 +33,8 @@
 
 
  ]]></description>
+  <category>Interactive</category>
+  <category>Reference</category>
   <guid>https://ian88.github.io/cartography/V - Custom Tileset/</guid>
   <pubDate>Fri, 07 Nov 2025 06:00:00 GMT</pubDate>
   <media:content url="https://ian88.github.io/cartography/V - Custom Tileset/media/cover.jpg" medium="image" type="image/jpeg"/>
@@ -56,6 +58,8 @@
 
 
  ]]></description>
+  <category>Interactive</category>
+  <category>Thematic</category>
   <guid>https://ian88.github.io/cartography/Land on Fire/</guid>
   <pubDate>Thu, 09 Oct 2025 05:00:00 GMT</pubDate>
   <media:content url="https://ian88.github.io/cartography/Land on Fire/media/cover.png" medium="image" type="image/png" height="77" width="144"/>
@@ -83,6 +87,8 @@
 
 
  ]]></description>
+  <category>Static</category>
+  <category>Reference</category>
   <guid>https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/</guid>
   <pubDate>Wed, 11 Dec 2024 06:00:00 GMT</pubDate>
   <media:content url="https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/media/cover.png" medium="image" type="image/png" height="153" width="144"/>
@@ -110,6 +116,8 @@
 
 
  ]]></description>
+  <category>Static</category>
+  <category>Thematic</category>
   <guid>https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/</guid>
   <pubDate>Thu, 24 Oct 2024 05:00:00 GMT</pubDate>
   <media:content url="https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/media/Map.jpg" medium="image" type="image/jpeg"/>
@@ -152,6 +160,8 @@
 </section>
 
  ]]></description>
+  <category>Static</category>
+  <category>Reference</category>
   <guid>https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/</guid>
   <pubDate>Mon, 14 Oct 2024 05:00:00 GMT</pubDate>
   <media:content url="https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/media/Map.png" medium="image" type="image/png" height="189" width="144"/>

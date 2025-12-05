@@ -8,6 +8,9 @@ author:
 date: 2025-4-30
 date-modified: last-modified
 image: "media/cover.jpg"
+categories: 
+  - Czechia
+  - Travel
 draft: false
 ---
 

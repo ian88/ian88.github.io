@@ -10,7 +10,7 @@
 <atom:link href="https://ian88.github.io/Photography.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 02 Dec 2025 19:49:29 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 Dec 2025 00:54:21 GMT</lastBuildDate>
 <item>
   <title>Astrophotography</title>
   <dc:creator>Ian Beilfuss</dc:creator>
@@ -58,8 +58,9 @@ img.grid-item:hover {
 
 
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Astrophotography/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Astrophotography/media/Canyon Stars.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -129,9 +130,13 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Canyons/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Canyons/media/Grand Canyon.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -184,8 +189,9 @@ img.grid-item:hover {
 
 
  ]]></description>
+  <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Caves/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Caves/media/Carlsbad1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -253,8 +259,9 @@ img.grid-item:hover {
 
 
  ]]></description>
+  <category>Urban</category>
   <guid>https://ian88.github.io/photos/Cities/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Cities/media/NYC6.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -352,8 +359,9 @@ img.grid-item:hover {
 
 
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Coasts/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Coasts/media/Turkey.png" medium="image" type="image/png" height="180" width="144"/>
 </item>
 <item>
@@ -444,9 +452,13 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Deserts/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Deserts/media/Death Valley1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -525,9 +537,13 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Forests/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Forests/media/Redwoods1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -585,9 +601,13 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Grasslands/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Grasslands/media/Blue Lagoon.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -636,9 +656,13 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+
  ]]></description>
+  <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Misc/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Misc/media/Tent.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -841,9 +865,13 @@ img.grid-item:hover {
 
 </div>
 
+
+
+
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Mountains/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Mountains/media/Switzerland.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -913,9 +941,13 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Sunsets/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Sunsets/media/Idaho1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -994,9 +1026,13 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+
  ]]></description>
+  <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Waterfalls/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Waterfalls/media/Yosemite2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1091,8 +1127,9 @@ img.grid-item:hover {
 
 
  ]]></description>
+  <category>Wildlife</category>
   <guid>https://ian88.github.io/photos/Wildlife/</guid>
-  <pubDate>Tue, 02 Dec 2025 19:49:29 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Wildlife/media/Crocodile.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

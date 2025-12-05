@@ -8,6 +8,8 @@ author:
 date: 2025-3-4
 date-modified: last-modified
 image: "media/bridge.JPG"
+categories: 
+  - Czechia
 draft: false
 ---
 

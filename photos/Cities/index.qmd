@@ -6,6 +6,8 @@ author:
     url: https://ian88.github.io/
 image: "media/NYC6.jpg"
 page-layout: full
+categories: 
+  - Urban
 listing:
   id: listing-gallery
   template: gallery.ejs
@@ -13,7 +15,8 @@ listing:
     - media/*.jpg
   sort-ui: false
   filter-ui: false
-  categories: false
+  #categories:
+  #- Urban
 draft: false
 ---
 

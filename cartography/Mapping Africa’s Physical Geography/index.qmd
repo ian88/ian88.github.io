@@ -8,6 +8,9 @@ author:
 date: 2024-10-14
 date-modified: last-modified
 image: "media/Map.png"
+categories:
+  - Static
+  - Reference
 draft: false
 ---
 
@@ -22,6 +25,7 @@ knitr::include_graphics("media/Map.png")
 ```
 
 ## Before Label Adjustments
+
 ```{r}
 #| eval: true
 #| echo: false

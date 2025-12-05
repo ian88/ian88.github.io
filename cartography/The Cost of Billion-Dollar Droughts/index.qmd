@@ -8,6 +8,9 @@ author:
 date: 2024-10-24
 date-modified: last-modified
 image: "media/Map.jpg"
+categories:
+  - Static
+  - Thematic
 draft: false
 ---
 

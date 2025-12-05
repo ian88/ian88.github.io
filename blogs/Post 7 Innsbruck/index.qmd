@@ -8,6 +8,8 @@ author:
 date: 2025-3-17
 date-modified: last-modified
 image: "media/nightriver.JPG"
+categories: 
+  - Travel
 draft: false
 ---
 

@@ -8,6 +8,8 @@ author:
 date: 2025-3-5
 date-modified: last-modified
 image: "media/vitkov.JPG"
+categories: 
+  - Czechia
 draft: false
 ---
 

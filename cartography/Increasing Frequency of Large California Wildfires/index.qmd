@@ -8,6 +8,9 @@ author:
 date: 2024-12-11
 date-modified: last-modified
 image: "media/cover.png"
+categories:
+  - Static
+  - Reference
 draft: False
 ---
 
