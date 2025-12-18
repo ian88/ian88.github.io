@@ -25,3 +25,5 @@ I hope this story can provide a visually compelling and informative look at Sand
 <iframe src="https://storymaps.arcgis.com/stories/380e214aa5ba41b482dc9657b3d7af90" width="100%" height="800px" frameborder="0" allowfullscreen allow="geolocation">
 
 </iframe>
+
+[View The Long Winter in a new tab](https://arcg.is/0jqCiH0){target="_blank"}

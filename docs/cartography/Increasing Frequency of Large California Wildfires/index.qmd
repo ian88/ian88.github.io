@@ -1,0 +1,23 @@
+---
+title: "Mapping California's Large Wildfires"
+description: "Increasing Frequency of Large California Wildfires"
+format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2024-12-11
+date-modified: last-modified
+image: "media/cover.png"
+categories:
+  - Static
+  - Reference
+draft: False
+---
+
+I created this map as the final project for Geography 370: Introduction to Cartography at UW-Madison to draw attention to how the frequency of Wildfires in California has changed from the 20th to the 21st century
+
+```{r}
+#| eval: true
+#| echo: false
+knitr::include_graphics("media/Map.png")
+```

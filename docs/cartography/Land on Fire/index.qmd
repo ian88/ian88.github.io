@@ -25,6 +25,3 @@ I hope this story can provide a visually compelling and informative look at the 
 <iframe src="https://storymaps.arcgis.com/stories/d4733f62afe94a1ab81b37e429b072bc" width="100%" height="800px" frameborder="0" allowfullscreen allow="geolocation">
 
 </iframe>
-
-
-[View Land on Fire in a new tab](https://arcg.is/jmnuG1){target="_blank"}
