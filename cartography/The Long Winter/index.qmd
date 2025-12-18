@@ -1,0 +1,27 @@
+---
+title: "The Long Winter"
+description: "How eBird sightings provide insight into sandhill crane wintering patterns in California"
+format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2025-12-18
+date-modified: last-modified
+image: "media/cover.png"
+categories:
+  - Interactive
+  - Thematic
+draft: false
+---
+
+The Long Winter was created for the final project of Geography 572, Graphic Design in Cartography at UW-Madison. This project was created with support from the International Crane Foundation.
+
+eBird has become one of the largest citizen science project in the world and can provide amazing information about the spatial location and density of bird. The project provided me with a valuable introduction to processing eBird data and using it to make spatial correlations. I 
+
+ArcGIS StoryMaps was chosen as the medium for my project to make it more interactive and to provide more information than I could convey through an infographic. The processing of eBird data was done in QGIS and R, with coding help from ChatGPT. All maps were made in QGIS, with design enhancements made with Adobe Illustrator. 
+
+I hope this story can provide a visually compelling and informative look at Sandhill Crane wintering patterns in California.
+
+<iframe src="https://storymaps.arcgis.com/stories/380e214aa5ba41b482dc9657b3d7af90" width="100%" height="800px" frameborder="0" allowfullscreen allow="geolocation">
+
+</iframe>
