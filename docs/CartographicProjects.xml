@@ -38,6 +38,120 @@
   <media:content url="https://ian88.github.io/cartography/The Long Winter/media/cover.png" medium="image" type="image/png" height="70" width="144"/>
 </item>
 <item>
+  <title>Equity of Public Transit Access to Hiking Trails in San Francisco, CA</title>
+  <dc:creator>Ian Beilfuss and WIll McAllister</dc:creator>
+  <link>https://ian88.github.io/cartography/San Francisco Trail Equity/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This semester-long collaborative project with Will McAllister for Geography 578: Applications of GIS provides an introductory analysis of the equity of public transit access to hiking trails in San Francisco, CA. Through our analysis, we evaluated the following research statement:</p>
+<p>The San Francisco Bay Area is known for its hiking trails, but public transportation inequities are a potential barrier for many communities to access them. We seek to evaluate access to unpaved hiking trails in the San Francisco Bay Area by creating a distance matrix of the duration of travel by public transportation from census block group centroids in the City of San Francisco to trailheads. We will then overlay demographic data to understand how public transit access to trails varies across different socioeconomic and racial groups.</p>
+<p>Using San Francisco and the Bay Area as our study area, we evaluated trail systems in the area and removed any that failed to meet our 5+ mile length and unpaved criteria. Next, we created trailheads by snapping trails to Open Street Network roads.</p>
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Study Area.png" class="img-fluid figure-img"></p>
+<figcaption>The study area for our analysis, with San Francisco highlighted in purple</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/5+ Mile Unpaved Trails.png" class="img-fluid figure-img"></p>
+<figcaption>Trails that met our 5+ mile unpaved criteria</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Accessible Trailheads.png" class="img-fluid figure-img"></p>
+<figcaption>Trailheads that are accessible within a 2.5-hour transit journey</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Using the R5 routing engine within the r5r R package, we calculated the total travel time and number of transit legs to reach each trailhead from each San Francisco block group centroid.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Reachable Trails.png" class="img-fluid figure-img"></p>
+<figcaption>The number of trails that are accessible by public transport in under a 2.5-hour journey from each block group centroid. San Francisco public transportation routes are overlaid to make trends more visible</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>We assigned a Trail Accessibility Score for each transit journey by summing the Duration Score and Rides Score, using the following scoring:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Scoring.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Trail Accessibility.png" class="img-fluid figure-img"></p>
+<figcaption>The average Trail Accessibility Score for each block group. San Francisco public transportation routes are overlaid to make trends more visible</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>For each 2020 Census San Francisco block group, we evaluated vulnerability based on three demographic variables: income, race, and vehicle access. We then overlaid the average Trail Accessibility Scores to draw conclusions about the equity of trail accessibility.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Trail x Income.png" class="img-fluid figure-img"></p>
+<figcaption>Trail accessibility by income vulnerability. San Francisco public transportation routes are overlaid to make trends more visible</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Trail x Race.png" class="img-fluid figure-img"></p>
+<figcaption>Trail accessibility by race vulnerability. San Francisco public transportation routes are overlaid to make trends more visible</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Trail x Vehicle.png" class="img-fluid figure-img"></p>
+<figcaption>Trail accessibility by vehicle vulnerability. San Francisco public transportation routes are overlaid to make trends more visible</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>From our analysis we found that income or race vulnerability does not significantly affect the ease of accessing hiking trails. This is likely because San Francisco has a robust public transit network, providing all communities with accessible transit. However, we found that vehicle vulnerability has some correlation with better trail accessibility. This makes some intuitive sense because the majority of the block groups with high vehicle vulnerability are located near the BART line. For people living in these block groups, a car may not be as necessary because there is a good public transportation system. However, further research is needed before more concrete conclusions can be drawn.</p>
+<p><a href="media/Full Report.pdf" target="_blank">Learn more about the background, detailed methodology, and expanded discussion of our project by clicking to read the full project report</a></p>
+
+
+
+ ]]></description>
+  <category>Static</category>
+  <category>Thematic</category>
+  <guid>https://ian88.github.io/cartography/San Francisco Trail Equity/</guid>
+  <pubDate>Thu, 11 Dec 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Trail Accessibility.png" medium="image" type="image/png" height="110" width="144"/>
+</item>
+<item>
   <title>V: Custom Tileset</title>
   <dc:creator>Ian Beilfuss</dc:creator>
   <link>https://ian88.github.io/cartography/V - Custom Tileset/</link>
