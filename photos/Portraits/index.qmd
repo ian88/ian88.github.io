@@ -1,0 +1,22 @@
+---
+title: "Portraits"
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+image: "media/thumbnail.jpg"
+page-layout: full
+categories: 
+  - Portraits
+listing:
+  id: listing-gallery
+  template: gallery.ejs
+  contents:
+    - media/*.webp
+  sort-ui: false
+  filter-ui: false
+  categories: false
+draft: false
+---
+
+::: {#listing-gallery}
+:::
