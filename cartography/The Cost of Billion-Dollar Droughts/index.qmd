@@ -7,7 +7,7 @@ author:
     url: https://ian88.github.io/
 date: 2024-10-24
 date-modified: last-modified
-image: "media/Map.jpg"
+image: "media/thumbnail.png"
 categories:
   - Static
   - Thematic

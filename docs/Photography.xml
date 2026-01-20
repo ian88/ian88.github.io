@@ -10,7 +10,7 @@
 <atom:link href="https://ian88.github.io/Photography.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 20 Jan 2026 04:26:35 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Jan 2026 17:15:49 GMT</lastBuildDate>
 <item>
   <title>Astrophotography</title>
   <dc:creator>Ian Beilfuss</dc:creator>
@@ -60,7 +60,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Astrophotography/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Astrophotography/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -136,7 +136,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Canyons/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Canyons/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -191,7 +191,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Caves/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Caves/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -204,75 +204,170 @@ img.grid-item:hover {
 
 
 <div id="listing-listing-gallery" class="quarto-listing quarto-listing-container-custom">
-<style type="text/css">
-.grid-gallery {
-  columns: 5 200px;
-  column-gap: 0.5rem;
-  width: 90%;
-  margin: 0 auto;
+<p>```{css echo=FALSE} /* Gallery Styles */ body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }</p>
+<p>.filter-nav { text-align: center; margin-bottom: 30px; padding: 20px 0; border-bottom: 1px solid #ddd; }</p>
+<p>.filter-nav button { background: none; border: none; padding: 10px 15px; margin: 0 5px; cursor: pointer; font-size: 14px; color: #666; transition: color 0.3s; }</p>
+<p>.filter-nav button:hover, .filter-nav button.active { color: #000; border-bottom: 2px solid #000; }</p>
+<p>.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; max-width: 1400px; margin: 0 auto; padding: 20px; }</p>
+<p>.gallery-item { cursor: pointer; overflow: hidden; border-radius: 4px; aspect-ratio: 1; position: relative; }</p>
+<p>.gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }</p>
+<p>.gallery-item:hover img { transform: scale(1.05); }</p>
+<p>/* Lightbox Styles */ .lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.95); z-index: 1000; align-items: center; justify-content: center; }</p>
+<p>.lightbox.active { display: flex; }</p>
+<p>.lightbox-content { position: relative; max-width: 90%; max-height: 90vh; display: flex; align-items: center; justify-content: center; }</p>
+<p>.lightbox img { max-width: 100%; max-height: 90vh; object-fit: contain; border: 3px solid white; }</p>
+<p>.lightbox-close { position: absolute; top: 20px; right: 40px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; z-index: 1001; background: none; border: none; padding: 10px; }</p>
+<p>.lightbox-close:hover { color: #ccc; }</p>
+<p>.lightbox-prev, .lightbox-next { position: absolute; top: 50%; transform: translateY(-50%); color: white; font-size: 50px; font-weight: bold; cursor: pointer; padding: 20px; background: none; border: none; z-index: 1001; transition: opacity 0.3s; }</p>
+<p>.lightbox-prev:hover, .lightbox-next:hover { opacity: 0.7; }</p>
+<p>.lightbox-prev { left: 20px; }</p>
+<p>.lightbox-next { right: 20px; }</p>
+<p>.lightbox-caption { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); color: white; background-color: rgba(0, 0, 0, 0.7); padding: 10px 20px; border-radius: 4px; font-size: 16px; }</p>
+<pre><code>
+## The Coast Gallery
+
+::: {.filter-nav}
+&lt;button class="filter-btn active" data-filter="all"&gt;Show All&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="autumn"&gt;Autumn&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="cold"&gt;Cold&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="light"&gt;Light&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="panorama"&gt;Panorama&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="coast"&gt;The Coast&lt;/button&gt;
+:::
+
+::: {.gallery-grid}
+&lt;div class="gallery-item" data-category="coast light"&gt;
+  &lt;img src="gallery/Capitol.webp" alt="Coastal sunrise with rock" data-title="Morning Serenity"&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-item" data-category="panorama"&gt;
+  &lt;img src="gallery/Prague1.webp" alt="Desert dunes" data-title="Golden Dunes"&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-item" data-category="coast light"&gt;
+  &lt;img src="gallery/Prague2.webp" alt="Tidal patterns" data-title="Tidal Reflections"&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-item" data-category="coast autumn"&gt;
+  &lt;img src="gallery/Prague3.webp" alt="Sunset explosion" data-title="Sunrise Explosion"&gt;
+&lt;/div&gt;
+:::
+
+```{=html}
+
+  &amp;times;
+  ❮
+  
+    
+  
+  ❯
+  
+
+let currentImageIndex = 0;
+let currentImages = [];
+
+// Initialize gallery
+document.addEventListener('DOMContentLoaded', function() {
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  
+  // Store all images
+  updateCurrentImages();
+  
+  // Add click event to gallery items
+  galleryItems.forEach((item, index) =&gt; {
+    item.addEventListener('click', function() {
+      const img = this.querySelector('img');
+      openLightbox(img.src, img.dataset.title, index);
+    });
+  });
+  
+  // Filter functionality
+  filterBtns.forEach(btn =&gt; {
+    btn.addEventListener('click', function() {
+      // Update active button
+      filterBtns.forEach(b =&gt; b.classList.remove('active'));
+      this.classList.add('active');
+      
+      const filter = this.dataset.filter;
+      
+      galleryItems.forEach(item =&gt; {
+        if (filter === 'all' || item.dataset.category.includes(filter)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+      
+      updateCurrentImages();
+    });
+  });
+  
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox.classList.contains('active')) {
+      if (e.key === 'ArrowLeft') changeImage(-1);
+      if (e.key === 'ArrowRight') changeImage(1);
+      if (e.key === 'Escape') closeLightbox();
+    }
+  });
+});
+
+function updateCurrentImages() {
+  const visibleItems = document.querySelectorAll('.gallery-item:not([style*="display: none"])');
+  currentImages = Array.from(visibleItems).map(item =&gt; {
+    const img = item.querySelector('img');
+    return {
+      src: img.src,
+      title: img.dataset.title
+    };
+  });
 }
-.grid-item {
-  width: 150px;
-  margin: 0 0.5rem 0.5rem 0;
-  display: inline-block;
-  width: 100%;
-  border-radius: 5px;
+
+function openLightbox(src, title, index) {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const caption = document.getElementById('lightbox-caption');
+  
+  currentImageIndex = index;
+  lightboxImg.src = src;
+  caption.textContent = title;
+  lightbox.classList.add('active');
+  document.body.style.overflow = 'hidden';
 }
-img.grid-item {
-  width: 100%;
-  transition: all .25s ease-in-out;
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('active');
+  document.body.style.overflow = 'auto';
 }
-img.grid-item:hover {
-  transform: scale(1.025);
+
+function changeImage(direction) {
+  updateCurrentImages();
+  currentImageIndex += direction;
+  
+  // Loop around
+  if (currentImageIndex &lt; 0) {
+    currentImageIndex = currentImages.length - 1;
+  } else if (currentImageIndex &gt;= currentImages.length) {
+    currentImageIndex = 0;
+  }
+  
+  const lightboxImg = document.getElementById('lightbox-img');
+  const caption = document.getElementById('lightbox-caption');
+  
+  lightboxImg.src = currentImages[currentImageIndex].src;
+  caption.textContent = currentImages[currentImageIndex].title;
 }
-</style>
-<div class="grid-gallery">
-<div>
-<p><a href="../..\photos\Cities\media\Capitol.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Capitol.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Dubrovnik.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Dubrovnik.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Kotor.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Kotor.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Monona Terrace.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Monona Terrace.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Seabrook Island.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Seabrook Island.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-</div>
+
+// Close lightbox when clicking outside the image
+document.getElementById('lightbox').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeLightbox();
+  }
+});
+</code></pre>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
@@ -282,7 +377,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Urban</category>
   <guid>https://ian88.github.io/photos/Cities/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Cities/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -319,58 +414,55 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Coasts\media\California1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/California1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\California2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/California2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\California2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/California2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Houston1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Houston1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Houston1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Houston1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Houston2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Houston2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Houston2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Houston2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Ireland1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Ireland1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Ireland2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Ireland2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Ireland3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Ireland3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Ireland4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Ireland4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Ireland5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Ireland5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Ireland6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Ireland6.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Ireland6.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Maine1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Maine1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Maine2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Maine2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Maine3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Maine3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Maine4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Maine4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Maine4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Oregon1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Oregon1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Oregon1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Oregon1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Oregon2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Oregon2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Oregon2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Oregon2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Oregon3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Oregon3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Coasts\media\Oregon3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Oregon3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Coasts\media\Turkey.png" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Turkey.png" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Coasts\media\Turkey.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Coasts/media/Turkey.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -382,7 +474,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Coasts/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Coasts/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -419,55 +511,58 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Deserts\media\Arizona1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Arizona1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Arizona2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Arizona2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Arizona3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Arizona3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Arizona4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Arizona4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Arizona4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\California.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/California.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\California.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/California.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Death Valley1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\California1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/California1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Death Valley2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Death Valley1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Death Valley3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Death Valley2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Death Valley4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Death Valley3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Death Valley5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Death Valley4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\White Sand2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sand2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Death Valley5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Death Valley5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\White Sands1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\White Sand2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sand2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\White Sands3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\White Sands1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\White Sands4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\White Sands3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\White Sands5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\White Sands4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Wisconsin River.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Wisconsin River.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\White Sands5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/White Sands5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Deserts\media\Zambia.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Zambia.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Deserts\media\Wisconsin River.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Wisconsin River.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Deserts\media\Zambia.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Deserts/media/Zambia.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -479,7 +574,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Deserts/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Deserts/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -516,43 +611,40 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Forests\media\Ireland Forest.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Ireland Forest.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Ireland Forest.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Ireland Forest.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\John Muir Trail Forest.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/John Muir Trail Forest.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\John Muir Trail Forest.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/John Muir Trail Forest.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Mt Rainier Fog1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Mt Rainier Fog1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Mt Rainier Fog1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Mt Rainier Fog1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Mt Rainier Fog2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Mt Rainier Fog2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Mt Rainier Fog2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Mt Rainier Fog2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Mt Rainier Foggy Forest.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Mt Rainier Foggy Forest.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Mt Rainier Foggy Forest.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Mt Rainier Foggy Forest.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Mt Rainier Road.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Mt Rainier Road.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Redwoods Sunbeam.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Redwoods Sunbeam.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Redwoods Sunbeam.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Redwoods Sunbeam.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Redwoods1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Redwoods1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Redwoods1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Redwoods1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Redwoods2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Redwoods2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Redwoods2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Redwoods2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Santa Fe.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Santa Fe.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Santa Fe.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Santa Fe.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Seabrook Island.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Seabrook Island.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Seabrook Island.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Seabrook Island.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Sequoa.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Sequoa.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Forests\media\Sequoa.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Sequoa.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Forests\media\Tenney Park Rainbow.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Tenney Park Rainbow.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Forests\media\Tenney Park Rainbow.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Forests/media/Tenney Park Rainbow.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -564,7 +656,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Forests/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Forests/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -601,22 +693,22 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Grasslands\media\Blue Lagoon.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Blue Lagoon.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Grasslands\media\Blue Lagoon.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Blue Lagoon.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Grasslands\media\Cherokee Marsh.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Cherokee Marsh.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Grasslands\media\Cherokee Marsh.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Cherokee Marsh.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Grasslands\media\Jackson Hole.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Jackson Hole.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Grasslands\media\Jackson Hole.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Jackson Hole.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Grasslands\media\Nachusa.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Nachusa.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Grasslands\media\Nachusa.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Nachusa.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Grasslands\media\New Mexico.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/New Mexico.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Grasslands\media\New Mexico.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/New Mexico.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Grasslands\media\Theodore Roosevelt.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Theodore Roosevelt.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Grasslands\media\Theodore Roosevelt.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Grasslands/media/Theodore Roosevelt.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -628,7 +720,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Grasslands/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Grasslands/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -665,13 +757,19 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Misc\media\Tenney Park2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Tenney Park2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Misc\media\Seabrook IslandPlant.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Seabrook IslandPlant.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Misc\media\Tent.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Tent.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Misc\media\Tenney Park1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Tenney Park1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Misc\media\Tree Macro.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Tree Macro.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Misc\media\Tenney Park2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Tenney Park2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Misc\media\Tent.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Tent.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Misc\media\Tree Macro.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Misc/media/Tree Macro.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -683,7 +781,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Misc/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Misc/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -895,7 +993,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Mountains/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Mountains/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -971,7 +1069,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Portraits</category>
   <guid>https://ian88.github.io/photos/Portraits/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Portraits/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1008,34 +1106,34 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Sunsets\media\Arizona.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Arizona.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Arizona.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Arizona.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Hayward.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Hayward.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Hayward.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Hayward.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Idaho1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Idaho1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Idaho1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Idaho1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Idaho2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Idaho2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Idaho2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Idaho2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Manitowish River1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Manitowish River1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Manitowish River1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Manitowish River1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Manitowish River2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Manitowish River2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Manitowish River2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Manitowish River2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Peru.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Peru.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Peru.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Peru.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Tenney Park1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Tenney Park1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Tenney Park3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Tenney Park3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Tenney Park2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Tenney Park2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Tenney Park4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Tenney Park4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Sunsets\media\Tenney Park3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Tenney Park3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Sunsets\media\Tenney Park5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Sunsets/media/Tenney Park5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -1047,7 +1145,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Sunsets/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Sunsets/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1084,43 +1182,43 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Waterfalls\media\Copper Falls1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Copper Falls1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Copper Falls1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Copper Falls1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Copper Falls2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Copper Falls2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Copper Falls2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Copper Falls2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Grand Canyon.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Grand Canyon.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Grand CanyonWaterfall.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Grand CanyonWaterfall.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Maine.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Maine.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Maine.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Maine.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Porcupine Mountains1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Porcupine Mountains1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Porcupine Mountains4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Porcupine Mountains4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Porcupine Mountains2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Porcupine Mountains2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Porcupine Mountains5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Porcupine Mountains5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Yosemite1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Yosemite1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\YosemiteWaterfall1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/YosemiteWaterfall1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Yosemite2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Yosemite2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\YosemiteWaterfall2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/YosemiteWaterfall2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Zambia1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Zambia1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Zambia2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Zambia2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Zambia3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Zambia3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Zambia4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Zambia4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Waterfalls\media\Zambia5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Waterfalls\media\Zambia5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Waterfalls/media/Zambia5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -1132,7 +1230,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Waterfalls/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Waterfalls/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1169,55 +1267,55 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Wildlife\media\Baboon.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Baboon.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Baboon.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Baboon.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Cormerant.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Cormerant.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Crocodile.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Crocodile.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Crocodile.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Crocodile.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephan4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephan4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Elephan4.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephan4.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephant Eye.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant Eye.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Elephant Eye.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant Eye.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephant Tusk.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant Tusk.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Elephant Tusk.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant Tusk.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephant1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Elephant2.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant2.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephant2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Elephant3.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant3.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephant3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Elephant5.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant5.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephant5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Elephant6.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant6.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Elephant6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Elephant6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Fish Eagle1.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Fish Eagle1.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Fish Eagle1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Fish Eagle1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Fish Eagle2.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Fish Eagle2.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Fish Eagle2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Fish Eagle2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Kudu.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Kudu.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Kudu.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Kudu.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\LBR1.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/LBR1.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\LBR1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/LBR1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\LBR2.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/LBR2.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\LBR2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/LBR2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Lion.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Lion.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Lion.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Lion.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Wildlife\media\Stork.jpeg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Stork.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Wildlife\media\Stork.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Wildlife/media/Stork.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -1229,7 +1327,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Wildlife</category>
   <guid>https://ian88.github.io/photos/Wildlife/</guid>
-  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Wildlife/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

@@ -47,9 +47,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-05b3605c983e1c6bd63eb61a94c51adc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -232,75 +229,170 @@ window.Quarto = {
 
 
 <div id="listing-listing-gallery" class="quarto-listing quarto-listing-container-custom">
-<style type="text/css">
-.grid-gallery {
-  columns: 5 200px;
-  column-gap: 0.5rem;
-  width: 90%;
-  margin: 0 auto;
+<p>```{css echo=FALSE} /* Gallery Styles */ body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }</p>
+<p>.filter-nav { text-align: center; margin-bottom: 30px; padding: 20px 0; border-bottom: 1px solid #ddd; }</p>
+<p>.filter-nav button { background: none; border: none; padding: 10px 15px; margin: 0 5px; cursor: pointer; font-size: 14px; color: #666; transition: color 0.3s; }</p>
+<p>.filter-nav button:hover, .filter-nav button.active { color: #000; border-bottom: 2px solid #000; }</p>
+<p>.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; max-width: 1400px; margin: 0 auto; padding: 20px; }</p>
+<p>.gallery-item { cursor: pointer; overflow: hidden; border-radius: 4px; aspect-ratio: 1; position: relative; }</p>
+<p>.gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }</p>
+<p>.gallery-item:hover img { transform: scale(1.05); }</p>
+<p>/* Lightbox Styles */ .lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.95); z-index: 1000; align-items: center; justify-content: center; }</p>
+<p>.lightbox.active { display: flex; }</p>
+<p>.lightbox-content { position: relative; max-width: 90%; max-height: 90vh; display: flex; align-items: center; justify-content: center; }</p>
+<p>.lightbox img { max-width: 100%; max-height: 90vh; object-fit: contain; border: 3px solid white; }</p>
+<p>.lightbox-close { position: absolute; top: 20px; right: 40px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; z-index: 1001; background: none; border: none; padding: 10px; }</p>
+<p>.lightbox-close:hover { color: #ccc; }</p>
+<p>.lightbox-prev, .lightbox-next { position: absolute; top: 50%; transform: translateY(-50%); color: white; font-size: 50px; font-weight: bold; cursor: pointer; padding: 20px; background: none; border: none; z-index: 1001; transition: opacity 0.3s; }</p>
+<p>.lightbox-prev:hover, .lightbox-next:hover { opacity: 0.7; }</p>
+<p>.lightbox-prev { left: 20px; }</p>
+<p>.lightbox-next { right: 20px; }</p>
+<p>.lightbox-caption { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); color: white; background-color: rgba(0, 0, 0, 0.7); padding: 10px 20px; border-radius: 4px; font-size: 16px; }</p>
+<pre><code>
+## The Coast Gallery
+
+::: {.filter-nav}
+&lt;button class="filter-btn active" data-filter="all"&gt;Show All&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="autumn"&gt;Autumn&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="cold"&gt;Cold&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="light"&gt;Light&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="panorama"&gt;Panorama&lt;/button&gt;
+&lt;button class="filter-btn" data-filter="coast"&gt;The Coast&lt;/button&gt;
+:::
+
+::: {.gallery-grid}
+&lt;div class="gallery-item" data-category="coast light"&gt;
+  &lt;img src="gallery/Capitol.webp" alt="Coastal sunrise with rock" data-title="Morning Serenity"&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-item" data-category="panorama"&gt;
+  &lt;img src="gallery/Prague1.webp" alt="Desert dunes" data-title="Golden Dunes"&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-item" data-category="coast light"&gt;
+  &lt;img src="gallery/Prague2.webp" alt="Tidal patterns" data-title="Tidal Reflections"&gt;
+&lt;/div&gt;
+
+&lt;div class="gallery-item" data-category="coast autumn"&gt;
+  &lt;img src="gallery/Prague3.webp" alt="Sunset explosion" data-title="Sunrise Explosion"&gt;
+&lt;/div&gt;
+:::
+
+```{=html}
+
+  &amp;times;
+  ❮
+  
+    
+  
+  ❯
+  
+
+let currentImageIndex = 0;
+let currentImages = [];
+
+// Initialize gallery
+document.addEventListener('DOMContentLoaded', function() {
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  
+  // Store all images
+  updateCurrentImages();
+  
+  // Add click event to gallery items
+  galleryItems.forEach((item, index) =&gt; {
+    item.addEventListener('click', function() {
+      const img = this.querySelector('img');
+      openLightbox(img.src, img.dataset.title, index);
+    });
+  });
+  
+  // Filter functionality
+  filterBtns.forEach(btn =&gt; {
+    btn.addEventListener('click', function() {
+      // Update active button
+      filterBtns.forEach(b =&gt; b.classList.remove('active'));
+      this.classList.add('active');
+      
+      const filter = this.dataset.filter;
+      
+      galleryItems.forEach(item =&gt; {
+        if (filter === 'all' || item.dataset.category.includes(filter)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+      
+      updateCurrentImages();
+    });
+  });
+  
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox.classList.contains('active')) {
+      if (e.key === 'ArrowLeft') changeImage(-1);
+      if (e.key === 'ArrowRight') changeImage(1);
+      if (e.key === 'Escape') closeLightbox();
+    }
+  });
+});
+
+function updateCurrentImages() {
+  const visibleItems = document.querySelectorAll('.gallery-item:not([style*="display: none"])');
+  currentImages = Array.from(visibleItems).map(item =&gt; {
+    const img = item.querySelector('img');
+    return {
+      src: img.src,
+      title: img.dataset.title
+    };
+  });
 }
-.grid-item {
-  width: 150px;
-  margin: 0 0.5rem 0.5rem 0;
-  display: inline-block;
-  width: 100%;
-  border-radius: 5px;
+
+function openLightbox(src, title, index) {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const caption = document.getElementById('lightbox-caption');
+  
+  currentImageIndex = index;
+  lightboxImg.src = src;
+  caption.textContent = title;
+  lightbox.classList.add('active');
+  document.body.style.overflow = 'hidden';
 }
-img.grid-item {
-  width: 100%;
-  transition: all .25s ease-in-out;
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('active');
+  document.body.style.overflow = 'auto';
 }
-img.grid-item:hover {
-  transform: scale(1.025);
+
+function changeImage(direction) {
+  updateCurrentImages();
+  currentImageIndex += direction;
+  
+  // Loop around
+  if (currentImageIndex &lt; 0) {
+    currentImageIndex = currentImages.length - 1;
+  } else if (currentImageIndex &gt;= currentImages.length) {
+    currentImageIndex = 0;
+  }
+  
+  const lightboxImg = document.getElementById('lightbox-img');
+  const caption = document.getElementById('lightbox-caption');
+  
+  lightboxImg.src = currentImages[currentImageIndex].src;
+  caption.textContent = currentImages[currentImageIndex].title;
 }
-</style>
-<div class="grid-gallery">
-<div>
-<p><a href="../..\photos\Cities\media\Capitol.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Capitol.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Dubrovnik.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Dubrovnik.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Kotor.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Kotor.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Monona Terrace.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Monona Terrace.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\NYC1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\NYC2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\NYC3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\NYC5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\NYC6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\NYC6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Prague1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Prague2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Prague3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Prague4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Prague5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Prague5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-<div>
-<p><a href="../..\photos\Cities\media\Seabrook Island.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="../..\photos\Cities\media\Seabrook Island.webp" class="grid-item img-fluid" loading="lazy"></a></p>
-</div>
-</div>
+
+// Close lightbox when clicking outside the image
+document.getElementById('lightbox').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeLightbox();
+  }
+});
+</code></pre>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
@@ -722,38 +814,6 @@ img.grid-item:hover {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

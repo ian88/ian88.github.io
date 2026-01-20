@@ -7,7 +7,7 @@ author:
     url: https://ian88.github.io/
 date: 2025-12-11
 date-modified: last-modified
-image: "media/Trail Accessibility.png"
+image: "media/thumbnail.png"
 categories:
   - Static
   - Thematic

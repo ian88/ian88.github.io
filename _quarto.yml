@@ -10,7 +10,6 @@ website:
   navbar:
     title: false
     logo: Logos/treeName.png
-    #logo-alt: "Alt text for logo"
     right:
       - href: index.qmd
         text: Home

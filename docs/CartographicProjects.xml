@@ -35,7 +35,7 @@
   <category>Thematic</category>
   <guid>https://ian88.github.io/cartography/The Long Winter/</guid>
   <pubDate>Thu, 18 Dec 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://ian88.github.io/cartography/The Long Winter/media/cover.png" medium="image" type="image/png" height="70" width="144"/>
+  <media:content url="https://ian88.github.io/cartography/The Long Winter/media/cover.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>Equity of Public Transit Access to Hiking Trails in San Francisco, CA</title>
@@ -149,7 +149,7 @@
   <category>Thematic</category>
   <guid>https://ian88.github.io/cartography/San Francisco Trail Equity/</guid>
   <pubDate>Thu, 11 Dec 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://ian88.github.io/cartography/San Francisco Trail Equity/media/Trail Accessibility.png" medium="image" type="image/png" height="110" width="144"/>
+  <media:content url="https://ian88.github.io/cartography/San Francisco Trail Equity/media/thumbnail.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>V: Custom Tileset</title>
@@ -203,7 +203,7 @@
   <category>Thematic</category>
   <guid>https://ian88.github.io/cartography/Land on Fire/</guid>
   <pubDate>Thu, 09 Oct 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://ian88.github.io/cartography/Land on Fire/media/cover.png" medium="image" type="image/png" height="77" width="144"/>
+  <media:content url="https://ian88.github.io/cartography/Land on Fire/media/thumbnail.png" medium="image" type="image/png" height="77" width="144"/>
 </item>
 <item>
   <title>Mapping California’s Large Wildfires</title>
@@ -232,7 +232,7 @@
   <category>Reference</category>
   <guid>https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/</guid>
   <pubDate>Wed, 11 Dec 2024 06:00:00 GMT</pubDate>
-  <media:content url="https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/media/cover.png" medium="image" type="image/png" height="153" width="144"/>
+  <media:content url="https://ian88.github.io/cartography/Increasing Frequency of Large California Wildfires/media/thumbnail.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>The Cost of Billion-Dollar Droughts</title>
@@ -261,7 +261,7 @@
   <category>Thematic</category>
   <guid>https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/</guid>
   <pubDate>Thu, 24 Oct 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/media/Map.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://ian88.github.io/cartography/The Cost of Billion-Dollar Droughts/media/thumbnail.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>Mapping Africa’s Physical Geography</title>
@@ -305,7 +305,7 @@
   <category>Reference</category>
   <guid>https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/</guid>
   <pubDate>Mon, 14 Oct 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/media/Map.png" medium="image" type="image/png" height="189" width="144"/>
+  <media:content url="https://ian88.github.io/cartography/Mapping Africa’s Physical Geography/media/thumbnail.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 </channel>
 </rss>
