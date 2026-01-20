@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ian Beilfuss</title>
+<link>https://ian88.github.io/docs/CartographicProjects.html</link>
+<atom:link href="https://ian88.github.io/docs/CartographicProjects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Fri, 07 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>V: Custom Tileset</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/docs/cartography/V - Custom Tileset/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>For this project, I created a custom tileset in MapBox Studio based on V for Vendetta, a 1982 graphic novel written by Alan Moore and illustrated by David Lloyd, and the 2005 film adaptation, directed by James McTeigue.</p>
+<p>The tileset uses fonts and colors drawn directly from the graphic novel and film to mimic the muted, noir aesthetic of V for Vendetta. Additionally, I brought in pictorial elements from the graphic novel, including the Guy Faux mask as a city indicator and an explosion to cover the city’s extent. More details on the design choices I implemented can be found in the explainer below.&nbsp;</p>
+
+<iframe width="100%" height="800px" src="https://api.mapbox.com/styles/v1/ibeilfuss/cmgkzx2yz001601rtbqvf8byd.html?title=view&amp;access_token=pk.eyJ1IjoiaWJlaWxmdXNzIiwiYSI6ImNtZ2t6aHNjZjB5YzQyam4yZGVrMm83bTIifQ.yt5N25nrRBAhSI_rE8WS1A&amp;zoomwheel=true&amp;fresh=true#0/0/0" title="V" style="border:none;">
+</iframe>
+
+<iframe src="https://ian88.github.io/V_Tileset.github.io/" width="100%" height="600px" frameborder="0" allowfullscreen="" allow="geolocation">
+</iframe>
+<p><a href="https://ian88.github.io/V_Tileset.github.io/">View the Explainer in a New Tab</a></p>
+
+
+
+ ]]></description>
+  <category>Interactive</category>
+  <category>Reference</category>
+  <guid>https://ian88.github.io/docs/cartography/V - Custom Tileset/</guid>
+  <pubDate>Fri, 07 Nov 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/docs/cartography/V - Custom Tileset/media/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Land on Fire</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/docs/cartography/Land on Fire/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>As you may have seen, this is my second cartographic project that centers around the California Wildfires. I’ve been following the trends, causes, and effects of wildfires in California for multiple years. I created Land on Fire to share what I have learned while following this story.</p>
+<p>The severity of wildfires has been well-documented in the media, particularly over the past decade. However, many of these stories only discuss the extent, severity, and firefighting techniques used in association with the fire. I wanted to ensure that I was telling a more comprehensive story to help contextualize the root causes of California’s increasing wildfires.&nbsp;</p>
+<p>ArcGIS StoryMaps was chosen as the medium for my project to make it more interactive and to provide more information than I could convey through an infographic. The graphs in my project were created using Python, with coding help from ChatGPT. All maps were made in ArcGIS Pro, with design enhancements made with Adobe Illustrator.&nbsp;</p>
+<p>I hope this story can provide a visually compelling and informative look at the causes and effects of California wildfires.</p>
+<iframe src="https://storymaps.arcgis.com/stories/d4733f62afe94a1ab81b37e429b072bc" width="100%" height="800px" frameborder="0" allowfullscreen="" allow="geolocation">
+</iframe>
+
+
+
+ ]]></description>
+  <category>Interactive</category>
+  <category>Thematic</category>
+  <guid>https://ian88.github.io/docs/cartography/Land on Fire/</guid>
+  <pubDate>Thu, 09 Oct 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/docs/cartography/Land on Fire/media/cover.png" medium="image" type="image/png" height="77" width="144"/>
+</item>
+<item>
+  <title>Mapping California’s Large Wildfires</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/docs/cartography/Increasing Frequency of Large California Wildfires/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I created this map as the final project for Geography 370: Introduction to Cartography at UW-Madison to draw attention to how the frequency of Wildfires in California has changed from the 20th to the 21st century</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/docs/cartography/Increasing Frequency of Large California Wildfires/media/Map.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Static</category>
+  <category>Reference</category>
+  <guid>https://ian88.github.io/docs/cartography/Increasing Frequency of Large California Wildfires/</guid>
+  <pubDate>Wed, 11 Dec 2024 06:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/docs/cartography/Increasing Frequency of Large California Wildfires/media/cover.png" medium="image" type="image/png" height="153" width="144"/>
+</item>
+<item>
+  <title>The Cost of Billion-Dollar Droughts</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/docs/cartography/The Cost of Billion-Dollar Droughts/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This map was created for a lab assignment in Geography 370: Introduction to Cartography at UW-Madison. The goal of the lab was to create a choropleth map to visualize state spending on drought disasters over the past half century, especially as drought frequency increases due to climate change. I used data from the National Atmospheric and Oceanic Administration and the Bureau of Economic Analysis. GIS analysis was completed in ArcGIS Pro and design enhancements made in Adobe Illustrator.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/docs/cartography/The Cost of Billion-Dollar Droughts/media/Map.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Static</category>
+  <category>Thematic</category>
+  <guid>https://ian88.github.io/docs/cartography/The Cost of Billion-Dollar Droughts/</guid>
+  <pubDate>Thu, 24 Oct 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/docs/cartography/The Cost of Billion-Dollar Droughts/media/Map.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Mapping Africa’s Physical Geography</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/docs/cartography/Mapping Africa’s Physical Geography/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This map was created for a lab assignment in Geography 370: Introduction to Cartography at UW-Madison. The goal of the lab was to create a reference map of Africa including all 55 Capital cities, 47 additional cities, 10 marine areas, 5 major rivers, and 55 natural landscape features. I used Adobe Illustrator for a significant portion of this lab to organize all of the labels in a coherent way that maximized clarity. The final reference map is shown below along with the initial version exported from ArcGiS Pro before any label styling and adjustments were completed.</p>
+<section id="final-map" class="level2">
+<h2 class="anchored" data-anchor-id="final-map">Final Map</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/docs/cartography/Mapping Africa’s Physical Geography/media/Map.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="before-label-adjustments" class="level2">
+<h2 class="anchored" data-anchor-id="before-label-adjustments">Before Label Adjustments</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ian88.github.io/docs/cartography/Mapping Africa’s Physical Geography/media/Initial.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Static</category>
+  <category>Reference</category>
+  <guid>https://ian88.github.io/docs/cartography/Mapping Africa’s Physical Geography/</guid>
+  <pubDate>Mon, 14 Oct 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://ian88.github.io/docs/cartography/Mapping Africa’s Physical Geography/media/Map.png" medium="image" type="image/png" height="189" width="144"/>
+</item>
+</channel>
+</rss>

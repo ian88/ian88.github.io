@@ -1,0 +1,17 @@
+---
+title: "Photography"
+subtitle: "Browse a collection of my favorite photos"
+page-layout: full
+listing:
+  contents: photos
+  feed: true
+  sort: "date desc"
+  type: grid
+  grid-item-border: true
+  grid-item-align: left
+  max-description-length: 175
+  date-format: medium
+  categories: true
+  sort-ui: false
+  filter-ui: false
+---

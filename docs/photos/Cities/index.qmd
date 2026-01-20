@@ -1,0 +1,24 @@
+---
+title: "Cities"
+format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+image: "thumbnail.webp"
+page-layout: full
+categories: 
+  - Urban
+listing:
+  id: listing-gallery
+  template: gallery.ejs
+  contents:
+    - media/*.webp
+  sort-ui: false
+  filter-ui: false
+  #categories:
+  #- Urban
+draft: false
+---
+
+::: {#listing-gallery}
+:::

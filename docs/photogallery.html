@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Landscape Photography – Ian Beilfuss</title>
+<title>Photography – Ian Beilfuss</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./Logos/tree.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K33FSX0VCE"></script>
 
 <script type="text/javascript">
@@ -112,35 +81,6 @@ gtag('js', new Date());
 gtag('config', 'G-K33FSX0VCE', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -152,8 +92,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./Logos/treeName.png" alt="Alt text for logo" class="navbar-logo light-content">
-    <img src="./Logos/treeName.png" alt="Alt text for logo" class="navbar-logo dark-content">
+    <img src="./Logos/treeName.png" alt="" class="navbar-logo light-content">
+    <img src="./Logos/treeName.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -193,20 +133,20 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Q2xvc2UtdXBz">Close-ups <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGFuZHNjYXBl">Landscape <span class="quarto-category-count">(9)</span></div><div class="category" data-category="VXJiYW4=">Urban <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2lsZGxpZmU=">Wildlife <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Landscape Photography</h1>
+<h1 class="title">Photography</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -219,120 +159,318 @@ window.Quarto = {
 
 
 
+/* Gallery Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.filter-nav {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.filter-nav button {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.filter-nav button:hover,
+.filter-nav button.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 4px;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Lightbox Styles */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border: 3px solid white;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+.lightbox-close:hover {
+  color: #ccc;
+}
+
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px;
+  background: none;
+  border: none;
+  z-index: 1001;
+  transition: opacity 0.3s;
+}
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  opacity: 0.7;
+}
+
+.lightbox-prev {
+  left: 20px;
+}
+
+.lightbox-next {
+  right: 20px;
+}
+
+.lightbox-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+The Coast Gallery
+
+
+  Show All
+  Autumn
+  Cold
+  Light
+  Panorama
+  The Coast
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-</div>
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764894990631" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Astrophotography/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Astrophotography/media/Canyon Stars.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764895016092" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Canyons/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Canyons/media/Grand Canyon.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Q2xvc2UtdXBz" data-listing-file-modified-sort="1764895006604" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Caves/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Caves/media/Carlsbad1.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="VXJiYW4=" data-listing-file-modified-sort="1764895032381" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Cities/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Cities/media/NYC6.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764894175972" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Coasts/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Coasts/media/Turkey.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764895025949" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Deserts/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Deserts/media/Death Valley1.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764895093903" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Forests/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Forests/media/Redwoods1.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764895107404" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Grasslands/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Grasslands/media/Blue Lagoon.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="Q2xvc2UtdXBz" data-listing-file-modified-sort="1764895275448" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Misc/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Misc/media/Tent.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764895181564" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Mountains/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Mountains/media/Switzerland.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764895179625" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Sunsets/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Sunsets/media/Idaho1.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="TGFuZHNjYXBl" data-listing-file-modified-sort="1764895177410" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Waterfalls/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Waterfalls/media/Yosemite2.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="V2lsZGxpZmU=" data-listing-file-modified-sort="1764895204132" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./photos/Wildlife/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./photos/Wildlife/media/Crocodile.jpeg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+  ×
+  ❮
+  
+    
+  
+  ❯
+  
+
+
+
+let currentImageIndex = 0;
+let currentImages = [];
+
+// Initialize gallery
+document.addEventListener('DOMContentLoaded', function() {
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  
+  // Store all images
+  updateCurrentImages();
+  
+  // Add click event to gallery items
+  galleryItems.forEach((item, index) =&gt; {
+    item.addEventListener('click', function() {
+      const img = this.querySelector('img');
+      openLightbox(img.src, img.dataset.title, index);
+    });
+  });
+  
+  // Filter functionality
+  filterBtns.forEach(btn =&gt; {
+    btn.addEventListener('click', function() {
+      // Update active button
+      filterBtns.forEach(b =&gt; b.classList.remove('active'));
+      this.classList.add('active');
+      
+      const filter = this.dataset.filter;
+      
+      galleryItems.forEach(item =&gt; {
+        if (filter === 'all' || item.dataset.category.includes(filter)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+      
+      updateCurrentImages();
+    });
+  });
+  
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox.classList.contains('active')) {
+      if (e.key === 'ArrowLeft') changeImage(-1);
+      if (e.key === 'ArrowRight') changeImage(1);
+      if (e.key === 'Escape') closeLightbox();
+    }
+  });
+});
+
+function updateCurrentImages() {
+  const visibleItems = document.querySelectorAll('.gallery-item:not([style*="display: none"])');
+  currentImages = Array.from(visibleItems).map(item =&gt; {
+    const img = item.querySelector('img');
+    return {
+      src: img.src,
+      title: img.dataset.title
+    };
+  });
+}
+
+function openLightbox(src, title, index) {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const caption = document.getElementById('lightbox-caption');
+  
+  currentImageIndex = index;
+  lightboxImg.src = src;
+  caption.textContent = title;
+  lightbox.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+function changeImage(direction) {
+  updateCurrentImages();
+  currentImageIndex += direction;
+  
+  // Loop around
+  if (currentImageIndex &lt; 0) {
+    currentImageIndex = currentImages.length - 1;
+  } else if (currentImageIndex &gt;= currentImages.length) {
+    currentImageIndex = 0;
+  }
+  
+  const lightboxImg = document.getElementById('lightbox-img');
+  const caption = document.getElementById('lightbox-caption');
+  
+  lightboxImg.src = currentImages[currentImageIndex].src;
+  caption.textContent = currentImages[currentImageIndex].title;
+}
+
+// Close lightbox when clicking outside the image
+document.getElementById('lightbox').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeLightbox();
+  }
+});
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

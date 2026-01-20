@@ -1,0 +1,119 @@
+---
+title: "Resume"
+subtitle: "Learn about my education, work and research experience, and on-campus involvement"
+format: html
+editor: visual
+---
+
+## Education University of Wisconsin - Madison
+
+::::: columns
+::: {.column width="10%"}
+![](media/UW%20Logo.png){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Bachelor of Science:** May 2026\
+**GPA:** 3.9/4.0\
+**Major:** Environmental Science and Cartography & Geographic Information Systems\
+**Certificates:** Life Science Communication and Environmental Studies
+:::
+:::::
+
+## Work Experience
+
+::::: columns
+::: {.column width="10%"}
+![](media/Damschen%20Lab%20Logo.jpg){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Functional Trait Technician, Damschen Lab \| Madison, WI \| Jun. 2025 - Present**\
+- Collected biomass and plant community data in dozens of prairie restoration sites across Wisconsin\
+- Coordinated with a small team to accomplish prairie seed collection trips in Missouri, Kansas, and Illinois\
+- Streamlined seed processing techniques for large-scale NRCS seeding study
+:::
+:::::
+
+::::: columns
+::: {.column width="10%"}
+![](media/Garver%20Logo.png){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Line Cook and Catering Chef, Garver Events \| Madison, WI \| Jul. 2020 - Jan. 2025**\
+- Worked on the line, cooking and assembling food for made-to-order dishes in American-style small restaurant\
+- Catered for 300-person weddings and corporate events\
+- Learned to work under high stress, collaborate with coworkers, and efficiently manage time
+:::
+:::::
+
+::::: columns
+::: {.column width="10%"}
+![](media/NYC%20Logo.png){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Crew Member, Northwest Youth Corps \| Eugene, OR \| Jan. 2022 - Jul. 2022**\
+- Contracted by US Forest Service and non-profits to perform fire prevention and restoration, fence construction, trail restoration, invasive species removal\
+- Collaborated within five member team to efficiently complete projects\
+- Gained complex thinking, situational awareness, teamwork, time management, and leadership skills
+:::
+:::::
+
+## Research Experience
+
+::::: columns
+::: {.column width="10%"}
+![](media/Limnology%20Logo.png){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Undergrad Researcher, Vander Zanden Lab, UW-Madison Center for Limnology \| Jan. 2023 - May 2023**\
+- Studied the effectiveness of replicating cyanobacteria-zebra mussel interactions in mesocosms as a framework for future experiments\
+- Designed and implemented three experiments to measure nutrient cycling, cyanobacteria growth, and zebra mussel filtration dynamics in mesocosms\
+- Presented findings at campus-wide undergraduate research symposium
+:::
+:::::
+
+## On Campus Involvement
+
+::::: columns
+::: {.column width="10%"}
+![](media/ESC%20Logo.png){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Cofounder & Outreach Director, Environmental Science Club \| Jan 2024 - Present**\
+- Major contributor to establishing the club and writing the club constitution\
+- Coordinated and facilitated two guest speakers at club meetings during the first semester to provide career and research advice Energy Team
+:::
+:::::
+
+::::: columns
+::: {.column width="10%"}
+![](media/Helios%20Logo.jpg){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Member, Helios Club \| Jan. 2023 - Present**\
+- Collaborated with UW Madison maintenance to retrofit more than 400 lightbulbs in Four Lakes Dining Hall\
+- Partnered with University Dining to upgrade dining hall fume hoods, saving over \$60,000 per year on electricity
+:::
+:::::
+
+::::: columns
+::: {.column width="10%"}
+![](media/Revolv%20Logo.png){width="80%"}
+:::
+
+::: {.column width="90%"}
+**Team Member, RE-volv Club \| Sep. 2023 - May 2024**\
+- Contacted ten local nonprofits on behalf of RE-volv to encourage them to pursue solar on their buildings, with financing assistance from RE-volv\
+- Organized three outreach events to raise awareness and support for RE-volv and solar power on campus
+:::
+:::::
+
+## Resume PDF
+
+[Download my Resume as a PDF](media/Resume_Nov_16_2025.pdf)

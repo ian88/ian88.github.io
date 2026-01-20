@@ -10,7 +10,7 @@
 <atom:link href="https://ian88.github.io/Photography.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 05 Dec 2025 00:54:21 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Jan 2026 04:26:35 GMT</lastBuildDate>
 <item>
   <title>Astrophotography</title>
   <dc:creator>Ian Beilfuss</dc:creator>
@@ -45,10 +45,10 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Astrophotography\media\Canyon Stars.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Astrophotography/media/Canyon Stars.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Astrophotography\media\Canyon Stars.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Astrophotography/media/Canyon Stars.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Astrophotography\media\Kafue Stars.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Astrophotography/media/Kafue Stars.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Astrophotography\media\Kafue Stars.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Astrophotography/media/Kafue Stars.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -60,8 +60,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Astrophotography/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Astrophotography/media/Canyon Stars.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Astrophotography/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Canyons</title>
@@ -97,34 +97,34 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Canyons\media\Colorado River.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Colorado River.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Colorado River.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Colorado River.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Grand Canyon Last Light.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Last Light.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Grand Canyon Last Light.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Last Light.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Grand Canyon Mountain.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Mountain.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Grand Canyon Mountain.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Mountain.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Grand Canyon Pano1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Pano1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Grand Canyon Pano1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Pano1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Grand Canyon Pano2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Pano2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Grand Canyon Pano2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Pano2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Grand Canyon Sunset.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Sunset.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Grand Canyon Sunset.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon Sunset.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Grand Canyon.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Grand Canyon.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Grand Canyon.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Rapids1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Rapids1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Rapids1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Rapids1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Rapids2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Rapids2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Rapids2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Rapids2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Canyons\media\Small Canyon.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Small Canyon.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Canyons\media\Small Canyon.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Canyons/media/Small Canyon.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -136,8 +136,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Canyons/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Canyons/media/Grand Canyon.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Canyons/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Caves</title>
@@ -173,13 +173,13 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Caves\media\Carlsbad1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Caves/media/Carlsbad1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Caves\media\Carlsbad1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Caves/media/Carlsbad1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Caves\media\Carlsbad2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Caves/media/Carlsbad2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Caves\media\Carlsbad2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Caves/media/Carlsbad2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Caves\media\Carlsbad3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Caves/media/Carlsbad3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Caves\media\Carlsbad3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Caves/media/Carlsbad3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -191,8 +191,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Caves/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Caves/media/Carlsbad1.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Caves/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Cities</title>
@@ -228,28 +228,49 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Cities\media\Capitol.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Capitol.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\Capitol.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Capitol.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Cities\media\NYC1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\Dubrovnik.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Dubrovnik.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Cities\media\NYC2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\Kotor.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Kotor.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Cities\media\NYC3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\Monona Terrace.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Monona Terrace.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Cities\media\NYC4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\NYC1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Cities\media\NYC5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\NYC2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Cities\media\NYC6.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC6.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\NYC3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Cities\media\Seabrook Island.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Seabrook Island.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Cities\media\NYC5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\NYC6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Seabrook Island.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Seabrook Island.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -261,8 +282,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Urban</category>
   <guid>https://ian88.github.io/photos/Cities/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Cities/media/NYC6.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Cities/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Coasts</title>
@@ -361,8 +382,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Coasts/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Coasts/media/Turkey.png" medium="image" type="image/png" height="180" width="144"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Coasts/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Deserts</title>
@@ -458,8 +479,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Deserts/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Deserts/media/Death Valley1.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Deserts/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Forests</title>
@@ -543,8 +564,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Forests/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Forests/media/Redwoods1.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Forests/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Grasslands</title>
@@ -607,8 +628,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Grasslands/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Grasslands/media/Blue Lagoon.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Grasslands/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Misc</title>
@@ -662,8 +683,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Misc/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Misc/media/Tent.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Misc/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Mountains</title>
@@ -699,166 +720,169 @@ img.grid-item:hover {
 </style>
 <div class="grid-gallery">
 <div>
-<p><a href="../..\photos\Mountains\media\Acadia.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Acadia.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\AcadiaMountains.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/AcadiaMountains.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Germany.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Germany.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Germany.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Germany.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT10.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT10.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT10.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT10.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT11.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT11.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT11.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT11.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT12.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT12.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT12.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT12.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT6.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT6.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT7.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT7.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT7.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT7.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT8.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT8.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT8.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT8.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\JMT9.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT9.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\JMT9.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/JMT9.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Kings Canyon1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Kings Canyon1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Kings Canyon1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Kings Canyon1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Kings Canyon2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Kings Canyon2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Kings Canyon2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Kings Canyon2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\KotorMountain.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/KotorMountain.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru6.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru6.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru7.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru7.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Peru8.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru8.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru7.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru7.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Porcupine Mountains1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Porcupine Mountains1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Peru8.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Peru8.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Porcupine Mountains2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Porcupine Mountains2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Porcupine Mountains1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Porcupine Mountains1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Porcupine Mountains3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Porcupine Mountains3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Porcupine Mountains2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Porcupine Mountains2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Switzerland.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Switzerland.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Porcupine Mountains3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Porcupine Mountains3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Switzerland.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Switzerland.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons10.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons10.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons10.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons10.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons6.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons6.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons7.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons7.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons8.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons8.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons7.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons7.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Tetons9.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons9.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons8.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons8.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Tetons9.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Tetons9.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River10.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River10.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River11.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River11.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River10.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River10.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River12.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River12.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River11.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River11.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River13.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River13.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River12.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River12.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River14.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River14.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River13.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River13.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River14.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River14.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River3.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River3.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River4.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River4.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River5.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River5.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River6.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River6.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River7.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River7.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River8.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River8.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River7.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River7.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Wind River9.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River9.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River8.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River8.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Yosemite1.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Yosemite1.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Wind River9.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Wind River9.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 <div>
-<p><a href="../..\photos\Mountains\media\Yosemite2.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Yosemite2.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+<p><a href="../..\photos\Mountains\media\Yosemite1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Yosemite1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Mountains\media\Yosemite2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Mountains/media/Yosemite2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -871,8 +895,84 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Mountains/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Mountains/media/Switzerland.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Mountains/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Portraits</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/photos/Portraits/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-listing-gallery" class="quarto-listing quarto-listing-container-custom">
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href="../..\photos\Portraits\media\Benji.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Benji.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Cole.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Cole.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Fin1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Fin1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Fin2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Fin2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Sammy.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Sammy.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Sammy2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Sammy2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Sylvie1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Sylvie1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Sylvie2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Sylvie2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Theo1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Theo1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Portraits\media\Theo2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Portraits/media/Theo2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
+
+ ]]></description>
+  <category>Portraits</category>
+  <guid>https://ian88.github.io/photos/Portraits/</guid>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Portraits/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Sunsets</title>
@@ -947,8 +1047,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Sunsets/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Sunsets/media/Idaho1.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Sunsets/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Waterfalls</title>
@@ -1032,8 +1132,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Waterfalls/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Waterfalls/media/Yosemite2.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Waterfalls/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Wildlife</title>
@@ -1129,8 +1229,8 @@ img.grid-item:hover {
  ]]></description>
   <category>Wildlife</category>
   <guid>https://ian88.github.io/photos/Wildlife/</guid>
-  <pubDate>Fri, 05 Dec 2025 00:54:21 GMT</pubDate>
-  <media:content url="https://ian88.github.io/photos/Wildlife/media/Crocodile.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 20 Jan 2026 04:26:35 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Wildlife/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

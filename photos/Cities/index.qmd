@@ -4,7 +4,7 @@ format: html
 author:
   - name: Ian Beilfuss
     url: https://ian88.github.io/
-image: "media/NYC6.jpg"
+image: "media/thumbnail.jpg"
 page-layout: full
 categories: 
   - Urban
@@ -12,7 +12,7 @@ listing:
   id: listing-gallery
   template: gallery.ejs
   contents:
-    - media/*.jpg
+    - media/*.webp
   sort-ui: false
   filter-ui: false
   #categories:

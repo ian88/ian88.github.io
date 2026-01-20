@@ -3,7 +3,7 @@ title: "Wildlife"
 author:
   - name: Ian Beilfuss
     url: https://ian88.github.io/
-image: "media/Crocodile.jpeg"
+image: "media/thumbnail.jpg"
 page-layout: full
 categories: 
   - Wildlife
@@ -11,8 +11,7 @@ listing:
   id: listing-gallery
   template: gallery.ejs
   contents:
-    - media/*.jpg
-    - media/*.jpeg
+    - media/*.webp
   sort-ui: false
   filter-ui: false
   categories: false

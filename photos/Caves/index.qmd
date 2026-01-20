@@ -4,7 +4,7 @@ format: html
 author:
   - name: Ian Beilfuss
     url: https://ian88.github.io/
-image: "media/Carlsbad1.jpg"
+image: "media/thumbnail.jpg"
 page-layout: full
 categories: 
   - Close-ups
@@ -12,11 +12,9 @@ listing:
   id: listing-gallery
   template: gallery.ejs
   contents:
-    - media/*.jpg
+    - media/*.webp
   sort-ui: false
   filter-ui: false
-  #categories: true
-  #- Close-ups
 draft: false
 ---
 

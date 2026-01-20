@@ -1,0 +1,78 @@
+---
+title: "March 10, 2025"
+description: "Czechia Trips: hiking and Kutná Hora"
+format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2025-3-10
+date-modified: last-modified
+image: "media/kutnahora.JPG"
+categories: 
+  - Czechia
+draft: false
+---
+
+## Hiking Trip
+
+On February 8th, ESN organized a hiking trip in the Czech countryside near Kamenný Přívoz village, about an hour's train ride south of Prague (I love the train network here!!). We hiked seven miles following the Sázava river. The landscape reminded me a lot of Oregon, with rolling hills and bluffs, and lots of evergreens. Getting out of the city on a hike and talking with other CZU students was great! My favorite part was the small houses built on the side of the bluffs! I have no idea how they get down to their houses, let alone how they built them. It looked like such a peaceful life living on the river, I’m envious. I want to do more hiking day trips around Czechia, Bohemian Switzerland National Park might be next.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-ncol: 1
+#| column: page
+#| fig-subcap: 
+#| - "Hiking route!"
+knitr::include_graphics("media/hikeroute.PNG")
+```
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 2
+#| layout-ncol: 4
+#| column: page
+#| fig-subcap: 
+#| - "Hiking"
+#| - "Beautiful views of Sázava river"
+#| - "Sázava"
+#| - "Rail bridge"
+#| - "We found some super cool icicle formations"
+#| - "House on the bluff"
+#| - "This was my favorite house, how to they get to it?!"
+#| - "Some more bluff houses"
+knitr::include_graphics("media/hiking.JPG")
+knitr::include_graphics("media/river1.JPG")
+knitr::include_graphics("media/river2.JPG")
+knitr::include_graphics("media/bridge.JPG")
+knitr::include_graphics("media/icicle.JPG")
+knitr::include_graphics("media/house1.JPG")
+knitr::include_graphics("media/house2.JPG")
+knitr::include_graphics("media/house3.JPG")
+```
+
+## Kutná Hora
+
+On February 16, our group took a day trip to Kutná Hora, which was also just an hour away by train (I promise I’ll stop praising the trains eventually). Kutná Hora is known for the Sedlec Ossuary, also called the Bone Church. The inside of the church is pretty incredible, there are pyramid stacks and hanging arrangements built from thousands of bones of people from the 14th and 15th centuries who died from the bubonic plague and Hussite Wars. We also visited the Cathedral of Assumption of Our Lady and St. John the Baptist. The interior had a lot of beautiful murals and gold statues. I love all of the old churches and cathedrals in Europe, even the ones in small towns are so amazingly intricate.
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 2
+#| layout-ncol: 3
+#| column: page
+#| fig-subcap: 
+#| - "Sedlec Ossuary doesn't allow photos but I downloaded this one from the official website"
+#| - "Cathedral exterior"
+#| - "Cathedral interior"
+#| - "Organ"
+#| - "So many gold statues"
+#| - "I like this mural style"
+knitr::include_graphics("media/bonechurch.JPG")
+knitr::include_graphics("media/cathedralexterior.JPG")
+knitr::include_graphics("media/cathedralinterior.JPG")
+knitr::include_graphics("media/organ.JPG")
+knitr::include_graphics("media/shrine.JPG")
+knitr::include_graphics("media/mural.JPG")
+```

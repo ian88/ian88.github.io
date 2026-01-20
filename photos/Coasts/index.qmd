@@ -3,7 +3,7 @@ title: "Coasts"
 author:
   - name: Ian Beilfuss
     url: https://ian88.github.io/
-image: "media/Turkey.png"
+image: "media/thumbnail.jpg"
 page-layout: full
 categories: 
   - Landscape
@@ -11,8 +11,7 @@ listing:
   id: listing-gallery
   template: gallery.ejs
   contents:
-    - media/*.jpg
-    - media/*.png
+    - media/*.webp
   sort-ui: false
   filter-ui: false
   categories: false

@@ -1,0 +1,162 @@
+---
+title: "May 6, 2025"
+description: "Krakow, April 25-27"
+format: html
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+date: 2025-5-6
+date-modified: last-modified
+image: "media/castle2.jpg"
+categories: 
+  - Travel
+draft: false
+---
+
+This post will be quite a bit heavier than my past posts since it involves visiting Birkenau and Auschwitz. Both were very humbling and informative experiences, and we were all very glad we took the time to visit. That being said, we also had a lot of fun visiting Kraków, it’s an enjoyable city!
+
+## Friday
+
+We took the overnight RegioJet bus from Prague to Kraków. After doing the same to get to Budapest, I thought we agreed to not do it again, yet here we were. The RegioJet was more comfortable than the FlixBus, but the 30-minute layover to switch buses in Brno guaranteed that I slept minimally. We arrived blurry-eyed in Krakow at 6:30. After dropping our stuff at Greg and Tom’s Beer House Hostel, we went to grab breakfast at a small cafe. I had a delicious chocolate croissant and proceeded to fall asleep almost instantly, and I wasn’t the only one. We spent the morning at Wawel Royal Castle, one of the major Kraków castles. The Castle is famous for representing almost all major European architectural styles, which was very cool to see. The metal dragon in front of the castle was also quite the sight, especially since it breathed fire every five minutes. For lunch, we found a small kimbap restaurant. I think this might have been my first time having kimbap, and I definitely enjoyed it. Next stop was the Bunny Cafe. For \$5, we got half an hour to sit and hang out with bunnies in the cafe. They gave us shoe coverings and a cup of grass to feed the bunnies. Many of them were quite shy, but others happily took the food. They were also enormous! Probably the largest bunnies I’ve ever seen. Such an entertaining thing to find in the middle of Kraków. We spent the afternoon in the salt mines and then came back for dinner at Restauracja Smakotyki. I ordered the meat dumplings, but was a bit underwhelmed, finding a place with perogies on the menu would have been a better bet. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 4
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "Taking the overnight RegioJet was not ideal for sleep"
+#| - "Chocolate croissant for breakfast might be the best croissant I've had abroad yet"
+#| - "Arrival selfi in Wawel Royal Castle"
+#| - "Wawel Dragon, it spits real fire every 5 minutes!"
+#| - "The many domes of Wawel Royal Castle"
+#| - "Inner castle garden"
+#| - "Kimbap lunch"
+#| - "Bunny cafe!"
+#| - "Artemis at bunny cafe, this bunny was absolutely enormous"
+#| - "Dumpling dinner at Restauracja Smakotyki"
+knitr::include_graphics("media/regiojet.JPG")
+knitr::include_graphics("media/croissant.JPG")
+knitr::include_graphics("media/selfi.JPG")
+knitr::include_graphics("media/dragon.JPG")
+knitr::include_graphics("media/castle1.JPG")
+knitr::include_graphics("media/castle2.JPG")
+knitr::include_graphics("media/kimbap.JPG")
+knitr::include_graphics("media/bunny1.JPG")
+knitr::include_graphics("media/bunny2.JPG")
+knitr::include_graphics("media/dumplings.JPG")
+```
+
+### Salt Mines
+
+Wieliczka Salt Mine was incredible! This is a must-see if you visit Krakow, and it was an especially perfect thing to do on the very rainy day we had. They offered the Tourist Route or the Miners Route. Unfortunately, the Miners Route was sold out for the day, but the Tourist Route was still great. They paired about 30 of us with an English tour guide, and we descended over 25 flights of stairs to 64 meters below ground. At the deepest point of the tour I think we were over 120 meters below ground. The tour was a bit overcrowded, so it was hard to hear and felt a bit rushed at times, but we still learned a lot about the mining culture, the pulley system for extracting the rock salt, the immense wooden scaffolding required to keep shafts open, and how the mine evolved. One of the most interesting facts was how the miners would carry lit torches into mined corridors to burn off the methane released while mining before it got to lethal or explosive levels. There were a bunch of cool rock salt sculptures along the tour, but by far the most amazing part was the salt cathedral. The miners wanted somewhere to worship while in the mines, so they built a bunch of small chapels throughout the mines and one large cathedral in a huge open room. It was jaw-dropping. The cathedral walls were lined with murals carved by miners depicting religious scenes like the Last Supper, and the chandeliers were created from thousands of small salt pieces. The tour lasted around three hours, and it’s safe to say we were all incredibly impressed. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 4
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "25 flights of stairs down"
+#| - "The stairs ended 64 meters below the surface, the deepest point of the tour was 120 meters below"
+#| - "Horses were used to pull this elaborate system to bring large cylinders of mined rock salt up one level at a time"
+#| - "Salt Cathedral"
+#| - "The Last Supper carved in rock salt"
+#| - "underground salt lake, 9 meters deep in some places"
+#| - "It's hard to imagine how much structural engineering work went into building this 100 meters deep"
+knitr::include_graphics("media/walkdown.JPG")
+knitr::include_graphics("media/64meters.JPG")
+knitr::include_graphics("media/pullysystem.JPG")
+knitr::include_graphics("media/saltcathedral.JPG")
+knitr::include_graphics("media/saltsupper.JPG")
+knitr::include_graphics("media/saltlake.JPG")
+knitr::include_graphics("media/saltstructure.JPG")
+```
+
+## Saturday
+
+Started today at the brutally early hour of 4 am to catch our tour group’s bus to Auschwitz. When we signed up for the tour, we were supposed to leave at 7:30 am, but the time got bumped up only a couple of days before. This was the first indication that we gotta a bad tour company. We arrived at Auschwitz at 6:30 am and were told we had to wait in line for the free first-come, first-served tickets. Our tour group declined to tell us while booking that we would be waiting in line with everyone instead of getting prebooked passes like the fancier tour groups. The line didn’t start moving until the ticket desk opened at 7:30, and we waited until 10:30 to get our tickets. Luckily, the time passed pretty quickly, playing word games and sharing riddles. Unfortunately, our 10:30 arrival at the ticket desk only guaranteed us tickets for the 4:15 pm time slot. Auschwitz is moving to a digital ticketing system on May 1st (so it should already be in place), meaning we only missed by less than a week. I know I shouldn’t be complaining so much while visiting Auschwitz, but it was frustrating to be told one thing while booking and show up to a completely different experience. After getting our tickets, we took the bus to Birenau for a few hours before coming back for our 4:15 Auschwitz time slot. We didn’t get back to the hostel until almost 9 pm. Thankfully, the hostel had free dinner from 9-10:30, and it was surprisingly good, with a large variety of dishes. Shout-out Greg and Tom! Probably the most mentally taxing day of study abroad yet, but definitely a worthwhile experience. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 1
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "waiting in line to get tickets"
+#| - "Surprisingly good free dinner at the hostel"
+knitr::include_graphics("media/waitingline.JPG")
+knitr::include_graphics("media/hosteldinner.JPG")
+```
+
+### Birkenau
+
+Walking through Birkenau, one of the most notorious death camps of WWII, on one of the nicest days of the year was a very strange juxtaposition. We entered the camp through Hell’s Gate, where new arrivals to the camp were brought in by train. Most of the camp is ruins after the SS bombed it to erase evidence of their crimes at the end of WWII. We walked through rows upon rows of brick chimneys that used to be attached to wooden barracks that were burned to the ground. The two main gas chamber buildings at the end of the camp were also reduced to rubble. There was a small sign explaining the various chambers in the buildings, but in general, there was limited signage, instead, it was more about taking in the immense scale of the killing that took place. I did at times wish we were part of one of the larger tour groups to get more information at each historical stop. At the end of our circuit around Birkenau, we stepped into a few reconstructed buildings displaying the living situation of prisoners in the camp. Four or more people were crammed into each level of a bunk bed, with 400 people sharing a barracks with only small stoves to serve as heating in the cold winters. Bathroom conditions weren’t any better and Nazi guards made prisoners go to the bathroom in large groups for efficiency. I don’t want to imagine the punishment for having to go to the bathroom out of turn. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 3
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "The entrance building through which men, women, and children were brought by train to Birkenau"
+#| - "International Monument to the Victims of Fascism"
+#| - "'To the memory of the men, women, and children who fell victim to the Nazi genocide. Here lie their ashes. May their souls rest in peace.' There were many instances of these memorial headstones throughout Birkenau"
+#| - "Ruins of one of the two major gassing chambers, both were bombed by the SS"
+#| - "Most of Birkenau remains ruins after the SS bombed the death camp during the end of the war to cover up their crimes"
+#| - "Recreated bunk rooms show what living situations were like in Birkenau"
+#| - "Recreated bathroom buildings show what toilets were like in Birkenau"
+knitr::include_graphics("media/birkenauentrance.JPG")
+knitr::include_graphics("media/memorial.JPG")
+knitr::include_graphics("media/memorial2.JPG")
+knitr::include_graphics("media/gaschamber.JPG")
+knitr::include_graphics("media/birkenau.JPG")
+knitr::include_graphics("media/bunks.JPG")
+knitr::include_graphics("media/toilets.JPG")
+```
+
+### Auschwitz
+
+The Auschwitz museum was designed in a way that we couldn’t see the camp from the parking lot, only after entering the museum and walking down a large corridor did we emerge in the camp. Walking through the Arbeit Macht Frei entrance gate was a very surreal experience. The first thing I noticed was how intact all of the buildings in Auschwitz were compared to Birkenau. Almost all of the buildings were dedicated to showing some aspect of the life of the men, women, and children living in the camp. The Auschwitz museum had a very different feel from many holocaust museums in the United States. There was less overall information, and the exhibits focused much more on the prisoners in Auschwitz as opposed to the Nazis and Hitler. I don’t remember seeing a single mention of Hitler in Auschwitz. I think this different style of museum worked very well for Auschwitz because, similar to Birkenau, it's more about being in the location where so many horrors were experienced. One of the most powerful parts was the images of men and women lining the walls in many of the buildings. Under the images was listed the name, occupation, date of arrival at Auschwitz, and date of death. For almost every person, they passed away less than a year after they arrived. Because of our late arrival time, we only had two hours to experience the museum, we definitely could have spent a couple more hours because we weren’t able to go inside all of the building exhibits. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 2
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "'Arbeit Macht Frei' which translates to 'work makes (one) free' hangs above one of the main entrances to Auschwitz"
+#| - "Death Wall where numerous camp prisoners were shot"
+#| - "Guard towers were posted frequently around the perimeter making escape nearly impossible"
+#| - "Two walls of barbed wire surround the entirety of Auschwitz"
+knitr::include_graphics("media/entrygate.JPG")
+knitr::include_graphics("media/deathwall.JPG")
+knitr::include_graphics("media/guardtower.JPG")
+knitr::include_graphics("media/betweengates.JPG")
+```
+
+## Sunday
+
+We checked out of the hostel at 10 am after eating the free breakfast, which unfortunately did not live up to the standards of dinner the night before. We were quite late for breakfast, so maybe it was better earlier in the morning before many things ran out. We walked back towards the river, stopping on the way to step inside the Basilica of St. Francis of Assisi. We found a nice grassy area near the castle from Friday to sit and play cards for a couple of hours before grabbing our train back to Prague at 3:30. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| layout-nrow: 2
+#| layout-ncol: 2
+#| column: page
+#| fig-subcap: 
+#| - "Supplimenting breakfast with a pistachio donut"
+#| - "Basilica of St. Francis of Assisi"
+#| - "Playing Kemps"
+#| - "Of course we ended our time in Krakow with a kebab"
+knitr::include_graphics("media/donut.JPG")
+knitr::include_graphics("media/basilica.JPG")
+knitr::include_graphics("media/kemps.JPG")
+knitr::include_graphics("media/kebab.JPG")
+```
