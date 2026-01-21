@@ -4,21 +4,21 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Bachelor of Science: May 2026\nGPA: 3.9/4.0\nMajor: Environmental Science and Cartography & Geographic Information Systems\nCertificates: Life Science Communication and Environmental Studies"
+    "text": "Bachelor of Science: May 2026\nGPA: 3.9\nMajor: Environmental Science and Cartography & Geographic Information Systems\nCertificates: Life Science Communication and Environmental Studies"
   },
   {
     "objectID": "resume.html#education-university-of-wisconsin---madison",
     "href": "resume.html#education-university-of-wisconsin---madison",
     "title": "Resume",
     "section": "",
-    "text": "Bachelor of Science: May 2026\nGPA: 3.9/4.0\nMajor: Environmental Science and Cartography & Geographic Information Systems\nCertificates: Life Science Communication and Environmental Studies"
+    "text": "Bachelor of Science: May 2026\nGPA: 3.9\nMajor: Environmental Science and Cartography & Geographic Information Systems\nCertificates: Life Science Communication and Environmental Studies"
   },
   {
     "objectID": "resume.html#work-experience",
     "href": "resume.html#work-experience",
     "title": "Resume",
     "section": "Work Experience",
-    "text": "Work Experience\n\n\n\n\nFunctional Trait Technician, Damschen Lab | Madison, WI | Jun. 2025 - Present\n- Collected biomass and plant community data in dozens of prairie restoration sites across Wisconsin\n- Coordinated with a small team to accomplish prairie seed collection trips in Missouri, Kansas, and Illinois\n- Streamlined seed processing techniques for large-scale NRCS seeding study\n\n\n\n\n\n\nLine Cook and Catering Chef, Garver Events | Madison, WI | Jul. 2020 - Jan. 2025\n- Worked on the line, cooking and assembling food for made-to-order dishes in American-style small restaurant\n- Catered for 300-person weddings and corporate events\n- Learned to work under high stress, collaborate with coworkers, and efficiently manage time\n\n\n\n\n\n\nCrew Member, Northwest Youth Corps | Eugene, OR | Jan. 2022 - Jul. 2022\n- Contracted by US Forest Service and non-profits to perform fire prevention and restoration, fence construction, trail restoration, invasive species removal\n- Collaborated within five member team to efficiently complete projects\n- Gained complex thinking, situational awareness, teamwork, time management, and leadership skills"
+    "text": "Work Experience\n\n\n\n\nFunctional Trait Technician, Damschen Lab | Madison, WI | Jun. 2025 - Jan. 2026\n- Collected biomass and plant community data in dozens of prairie restoration sites across Wisconsin\n- Coordinated with a small team to accomplish prairie seed collection trips in Missouri, Kansas, and Illinois\n- Streamlined seed processing techniques for large-scale NRCS seeding study\n\n\n\n\n\n\nLine Cook and Catering Chef, Garver Events | Madison, WI | Jul. 2020 - Jan. 2025\n- Worked on the line, cooking and assembling food for made-to-order dishes in American-style small restaurant\n- Catered for 300-person weddings and corporate events\n- Learned to work under high stress, collaborate with coworkers, and efficiently manage time\n\n\n\n\n\n\nCrew Member, Northwest Youth Corps | Eugene, OR | Jan. 2022 - Jul. 2022\n- Contracted by US Forest Service and non-profits to perform fire prevention and restoration, fence construction, trail restoration, invasive species removal\n- Collaborated within five member team to efficiently complete projects\n- Gained complex thinking, situational awareness, teamwork, time management, and leadership skills"
   },
   {
     "objectID": "resume.html#research-experience",
@@ -32,14 +32,14 @@
     "href": "resume.html#on-campus-involvement",
     "title": "Resume",
     "section": "On Campus Involvement",
-    "text": "On Campus Involvement\n\n\n\n\nCofounder & Outreach Director, Environmental Science Club | Jan 2024 - Present\n- Major contributor to establishing the club and writing the club constitution\n- Coordinated and facilitated two guest speakers at club meetings during the first semester to provide career and research advice Energy Team\n\n\n\n\n\n\nMember, Helios Club | Jan. 2023 - Present\n- Collaborated with UW Madison maintenance to retrofit more than 400 lightbulbs in Four Lakes Dining Hall\n- Partnered with University Dining to upgrade dining hall fume hoods, saving over $60,000 per year on electricity\n\n\n\n\n\n\nTeam Member, RE-volv Club | Sep. 2023 - May 2024\n- Contacted ten local nonprofits on behalf of RE-volv to encourage them to pursue solar on their buildings, with financing assistance from RE-volv\n- Organized three outreach events to raise awareness and support for RE-volv and solar power on campus"
+    "text": "On Campus Involvement\n\n\n\n\nCofounder & Outreach Director, Environmental Science Club | Jan 2024 - Present\n- Major contributor to establishing the club and writing the club constitution\n- Coordinated and facilitated two guest speakers at club meetings during the first semester to provide career and research advice Energy Team - Organized club volunteer opportunities at local natural areas to foster a strong community\n\n\n\n\n\n\nMember, Helios Club | Jan. 2023 - Present\n- Collaborated with UW Madison maintenance to retrofit more than 400 lightbulbs in Four Lakes Dining Hall\n- Partnered with University Dining to upgrade dining hall fume hoods, saving over $60,000 per year on electricity\n\n\n\n\n\n\nTeam Member, RE-volv Club | Sep. 2023 - May 2024\n- Contacted ten local nonprofits on behalf of RE-volv to encourage them to pursue solar on their buildings, with financing assistance from RE-volv\n- Organized three outreach events to raise awareness and support for RE-volv and solar power on campus"
   },
   {
     "objectID": "resume.html#resume-pdf",
     "href": "resume.html#resume-pdf",
     "title": "Resume",
     "section": "Resume PDF",
-    "text": "Resume PDF\nDownload my Resume as a PDF"
+    "text": "Resume PDF\nView my Resume as a PDF"
   },
   {
     "objectID": "photos/Waterfalls/index.html",
@@ -74,7 +74,7 @@
     "href": "photos/Cities/index.html",
     "title": "Cities",
     "section": "",
-    "text": "```{css echo=FALSE} /* Gallery Styles */ body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }\n.filter-nav { text-align: center; margin-bottom: 30px; padding: 20px 0; border-bottom: 1px solid #ddd; }\n.filter-nav button { background: none; border: none; padding: 10px 15px; margin: 0 5px; cursor: pointer; font-size: 14px; color: #666; transition: color 0.3s; }\n.filter-nav button:hover, .filter-nav button.active { color: #000; border-bottom: 2px solid #000; }\n.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; max-width: 1400px; margin: 0 auto; padding: 20px; }\n.gallery-item { cursor: pointer; overflow: hidden; border-radius: 4px; aspect-ratio: 1; position: relative; }\n.gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }\n.gallery-item:hover img { transform: scale(1.05); }\n/* Lightbox Styles */ .lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.95); z-index: 1000; align-items: center; justify-content: center; }\n.lightbox.active { display: flex; }\n.lightbox-content { position: relative; max-width: 90%; max-height: 90vh; display: flex; align-items: center; justify-content: center; }\n.lightbox img { max-width: 100%; max-height: 90vh; object-fit: contain; border: 3px solid white; }\n.lightbox-close { position: absolute; top: 20px; right: 40px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; z-index: 1001; background: none; border: none; padding: 10px; }\n.lightbox-close:hover { color: #ccc; }\n.lightbox-prev, .lightbox-next { position: absolute; top: 50%; transform: translateY(-50%); color: white; font-size: 50px; font-weight: bold; cursor: pointer; padding: 20px; background: none; border: none; z-index: 1001; transition: opacity 0.3s; }\n.lightbox-prev:hover, .lightbox-next:hover { opacity: 0.7; }\n.lightbox-prev { left: 20px; }\n.lightbox-next { right: 20px; }\n.lightbox-caption { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); color: white; background-color: rgba(0, 0, 0, 0.7); padding: 10px 20px; border-radius: 4px; font-size: 16px; }\n\n## The Coast Gallery\n\n::: {.filter-nav}\n&lt;button class=\"filter-btn active\" data-filter=\"all\"&gt;Show All&lt;/button&gt;\n&lt;button class=\"filter-btn\" data-filter=\"autumn\"&gt;Autumn&lt;/button&gt;\n&lt;button class=\"filter-btn\" data-filter=\"cold\"&gt;Cold&lt;/button&gt;\n&lt;button class=\"filter-btn\" data-filter=\"light\"&gt;Light&lt;/button&gt;\n&lt;button class=\"filter-btn\" data-filter=\"panorama\"&gt;Panorama&lt;/button&gt;\n&lt;button class=\"filter-btn\" data-filter=\"coast\"&gt;The Coast&lt;/button&gt;\n:::\n\n::: {.gallery-grid}\n&lt;div class=\"gallery-item\" data-category=\"coast light\"&gt;\n  &lt;img src=\"gallery/Capitol.webp\" alt=\"Coastal sunrise with rock\" data-title=\"Morning Serenity\"&gt;\n&lt;/div&gt;\n\n&lt;div class=\"gallery-item\" data-category=\"panorama\"&gt;\n  &lt;img src=\"gallery/Prague1.webp\" alt=\"Desert dunes\" data-title=\"Golden Dunes\"&gt;\n&lt;/div&gt;\n\n&lt;div class=\"gallery-item\" data-category=\"coast light\"&gt;\n  &lt;img src=\"gallery/Prague2.webp\" alt=\"Tidal patterns\" data-title=\"Tidal Reflections\"&gt;\n&lt;/div&gt;\n\n&lt;div class=\"gallery-item\" data-category=\"coast autumn\"&gt;\n  &lt;img src=\"gallery/Prague3.webp\" alt=\"Sunset explosion\" data-title=\"Sunrise Explosion\"&gt;\n&lt;/div&gt;\n:::\n\n```{=html}\n\n  &times;\n  ❮\n  \n    \n  \n  ❯\n  \n\nlet currentImageIndex = 0;\nlet currentImages = [];\n\n// Initialize gallery\ndocument.addEventListener('DOMContentLoaded', function() {\n  const galleryItems = document.querySelectorAll('.gallery-item');\n  const filterBtns = document.querySelectorAll('.filter-btn');\n  \n  // Store all images\n  updateCurrentImages();\n  \n  // Add click event to gallery items\n  galleryItems.forEach((item, index) =&gt; {\n    item.addEventListener('click', function() {\n      const img = this.querySelector('img');\n      openLightbox(img.src, img.dataset.title, index);\n    });\n  });\n  \n  // Filter functionality\n  filterBtns.forEach(btn =&gt; {\n    btn.addEventListener('click', function() {\n      // Update active button\n      filterBtns.forEach(b =&gt; b.classList.remove('active'));\n      this.classList.add('active');\n      \n      const filter = this.dataset.filter;\n      \n      galleryItems.forEach(item =&gt; {\n        if (filter === 'all' || item.dataset.category.includes(filter)) {\n          item.style.display = 'block';\n        } else {\n          item.style.display = 'none';\n        }\n      });\n      \n      updateCurrentImages();\n    });\n  });\n  \n  // Keyboard navigation\n  document.addEventListener('keydown', function(e) {\n    const lightbox = document.getElementById('lightbox');\n    if (lightbox.classList.contains('active')) {\n      if (e.key === 'ArrowLeft') changeImage(-1);\n      if (e.key === 'ArrowRight') changeImage(1);\n      if (e.key === 'Escape') closeLightbox();\n    }\n  });\n});\n\nfunction updateCurrentImages() {\n  const visibleItems = document.querySelectorAll('.gallery-item:not([style*=\"display: none\"])');\n  currentImages = Array.from(visibleItems).map(item =&gt; {\n    const img = item.querySelector('img');\n    return {\n      src: img.src,\n      title: img.dataset.title\n    };\n  });\n}\n\nfunction openLightbox(src, title, index) {\n  const lightbox = document.getElementById('lightbox');\n  const lightboxImg = document.getElementById('lightbox-img');\n  const caption = document.getElementById('lightbox-caption');\n  \n  currentImageIndex = index;\n  lightboxImg.src = src;\n  caption.textContent = title;\n  lightbox.classList.add('active');\n  document.body.style.overflow = 'hidden';\n}\n\nfunction closeLightbox() {\n  const lightbox = document.getElementById('lightbox');\n  lightbox.classList.remove('active');\n  document.body.style.overflow = 'auto';\n}\n\nfunction changeImage(direction) {\n  updateCurrentImages();\n  currentImageIndex += direction;\n  \n  // Loop around\n  if (currentImageIndex &lt; 0) {\n    currentImageIndex = currentImages.length - 1;\n  } else if (currentImageIndex &gt;= currentImages.length) {\n    currentImageIndex = 0;\n  }\n  \n  const lightboxImg = document.getElementById('lightbox-img');\n  const caption = document.getElementById('lightbox-caption');\n  \n  lightboxImg.src = currentImages[currentImageIndex].src;\n  caption.textContent = currentImages[currentImageIndex].title;\n}\n\n// Close lightbox when clicking outside the image\ndocument.getElementById('lightbox').addEventListener('click', function(e) {\n  if (e.target === this) {\n    closeLightbox();\n  }\n});\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "photos/Canyons/index.html",
@@ -88,7 +88,7 @@
     "href": "Photography.html",
     "title": "Photography",
     "section": "",
-    "text": "Astrophotography\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanyons\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaves\n\n\n\nClose-ups\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCities\n\n\n\nUrban\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoasts\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeserts\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nForests\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrasslands\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisc\n\n\n\nClose-ups\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nMountains\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nPortraits\n\n\n\nPortraits\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nSunsets\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaterfalls\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nWildlife\n\n\n\nWildlife\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\nNo matching items"
+    "text": "Astrophotography\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanyons\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaves\n\n\n\nClose-ups\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCities\n\n\n\nUrban\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoasts\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeserts\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nForests\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrasslands\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisc\n\n\n\nClose-ups\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nMountains\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhoto Essay\n\n\n\nPhoto Essay\n\n\n\nBehold: The Wisconsin State Capitol\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhoto Essay\n\n\n\nPhoto Essay\n\n\n\nReed Turchi Live at Rosa’s Lounge\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nPortraits\n\n\n\nPortraits\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nSunsets\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaterfalls\n\n\n\nLandscape\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\n\n\n\n\n\n\n\nWildlife\n\n\n\nWildlife\n\n\n\n\n\n\n\nIan Beilfuss\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "landscapephotos.html",
@@ -684,5 +684,131 @@
     "title": "Portraits",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html",
+    "title": "Photo Essay",
+    "section": "",
+    "text": "This photo essay was created for the course Documentary Photography for the Sciences at UW-Madison to practice building a compelling narrative to accompany my photography. The photo essay captures my experience watching my cousin’s band perform at Rosa’s Lounge in Chicago. View the photo essay below or click to view in its original PDF format"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#reed-turchi-live-at-rosas-lounge",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#reed-turchi-live-at-rosas-lounge",
+    "title": "Photo Essay",
+    "section": "Reed Turchi Live at Rosa’s Lounge",
+    "text": "Reed Turchi Live at Rosa’s Lounge\n\n\n\nReed Turchi, one of the top blues musicians in the US (and my cousin), jamming out at the last venue on the tour for his latest album, World on Fire"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#welcome-to-rosa",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#welcome-to-rosa",
+    "title": "Photo Essay",
+    "section": "Welcome to Rosa",
+    "text": "Welcome to Rosa\n\n\n\nFor over 45 years Rosa’s Lounge has hosted some the top blues artists in the nation, with live shows seven days a week"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#tuning-up",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#tuning-up",
+    "title": "Photo Essay",
+    "section": "Tuning Up",
+    "text": "Tuning Up\n\n\n\nProperly turned instruments are essential for a great show"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#ready-for-the-blues",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#ready-for-the-blues",
+    "title": "Photo Essay",
+    "section": "Ready for the Blues",
+    "text": "Ready for the Blues\n\n\n\nReed’s guitar, the centerpiece of the show, is ready for action"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#boom-boom-pow",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#boom-boom-pow",
+    "title": "Photo Essay",
+    "section": "Boom Boom Pow",
+    "text": "Boom Boom Pow\n\n\n\nThe drumkit lies in wait, moments before the start of the show"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#and-were-live",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#and-were-live",
+    "title": "Photo Essay",
+    "section": "And We’re Live",
+    "text": "And We’re Live\n\n\n\nReed Turchi and his band take the stage to play their hearts out"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#man-of-the-hour",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#man-of-the-hour",
+    "title": "Photo Essay",
+    "section": "Man of the Hour",
+    "text": "Man of the Hour\n\n\n\nReed Turchi takes slide guitar blues to the next level"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#movin-and-groovin",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#movin-and-groovin",
+    "title": "Photo Essay",
+    "section": "Movin’ and Groovin’",
+    "text": "Movin’ and Groovin’\n\n\n\nSome music is just too good to stay seated; the blues just makes you wanna dance. What a way to end the final show of the tour"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html",
+    "title": "Photo Essay",
+    "section": "",
+    "text": "This photo essay was created for the course Documentary Photography for the Sciences at UW-Madison to practice building a compelling narrative to accompany my photography. The photo essay captures the grandeur and history of the Wisconsin State Capitol. View the photo essay below or click to view in its original PDF format"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#behold-the-wisconsin-state-capitol",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#behold-the-wisconsin-state-capitol",
+    "title": "Photo Essay",
+    "section": "Behold: The Wisconsin State Capitol",
+    "text": "Behold: The Wisconsin State Capitol\n\n\n\nLocated at the heart of Madison, the Wisconsin State Capitol is one of the most iconic capitol buildings in the United States. Standing atop the Capitol is a 15’5” gilded bronze statue Wisconsin, created by the same sculpture that made the Abraham Lincoln statue in the Lincoln Memorial. In front of the Capitol, Forward stands proudly, symbolizing the State motto of “Forward” and commemorating the women’s suffrage movement"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#welcome-in",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#welcome-in",
+    "title": "Photo Essay",
+    "section": "Welcome In!",
+    "text": "Welcome In!\n\n\n\nThe grandeur of the State Capitol is immediately present upon walking in. Built in 1917 after the previous capitol building burned to the ground, the Capitol has stood proud as a symbol for history, architecture, and governance for over 100 years"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#the-west-gallery",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#the-west-gallery",
+    "title": "Photo Essay",
+    "section": "The West Gallery",
+    "text": "The West Gallery\n\n\n\nThe West Gallery of the Capitol is home to the State Assembly Chambers. A badger, the Wisconsin State Animal can be seen overlooking the gallery"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#largest-dome-in-the-usa",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#largest-dome-in-the-usa",
+    "title": "Photo Essay",
+    "section": "Largest Dome in the USA",
+    "text": "Largest Dome in the USA\n\n\n\nWisconsin State Capitol boasts the largest dome by volume of any Capitol in the United States, including the National Capitol. Made of granite, the only one in the United States, the dome rises 284 feet above the ground and is the tallest point in Madison"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#incricacies-everywhere",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#incricacies-everywhere",
+    "title": "Photo Essay",
+    "section": "Incricacies Everywhere",
+    "text": "Incricacies Everywhere\n\n\n\nDetailed carvings are present throughout the Capitol building, adding beauty and complexity to the grandeur of the atrium"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#scavenger-hunt",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#scavenger-hunt",
+    "title": "Photo Essay",
+    "section": "Scavenger Hunt",
+    "text": "Scavenger Hunt\n\n\n\nThe Capitol uses over 30 types of marble, sourced from seven states, three European countries, and one African country. Incased in the marble are fossil remains from the Precambrian age, like the starfish in this image. Visit and see if you can find the starfish, coral, nautiloid, gastropod, and others!"
+  },
+  {
+    "objectID": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#curious-learn-more",
+    "href": "photos/Photo Essay - Behold the Wisconsin State Capitol/index.html#curious-learn-more",
+    "title": "Photo Essay",
+    "section": "Curious? Learn More!",
+    "text": "Curious? Learn More!\n\n\n\nCurious about the Capitol and want to learn more about its history, architecture, and governance? The Capitol offers free 45- minute guided tours Mondays through Saturday at 9 am, 10 am, 11 am, 1 pm, 2 pm, and 3 pm, and Sundays at 1 pm, 2 pm, and 3 pm. There’s also a free museum on the 6th floor discussing the history of the Capitol. You can learn more by clicking here"
+  },
+  {
+    "objectID": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#welcome-to-rosas",
+    "href": "photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/index.html#welcome-to-rosas",
+    "title": "Photo Essay",
+    "section": "Welcome to Rosa’s",
+    "text": "Welcome to Rosa’s\n\n\n\nFor over 45 years Rosa’s Lounge has hosted some the top blues artists in the nation, with live shows seven days a week"
   }
 ]

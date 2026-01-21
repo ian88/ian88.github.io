@@ -14,7 +14,7 @@ editor: visual
 
 ::: {.column width="90%"}
 **Bachelor of Science:** May 2026\
-**GPA:** 3.9/4.0\
+**GPA:** 3.9\
 **Major:** Environmental Science and Cartography & Geographic Information Systems\
 **Certificates:** Life Science Communication and Environmental Studies
 :::
@@ -28,7 +28,7 @@ editor: visual
 :::
 
 ::: {.column width="90%"}
-**Functional Trait Technician, Damschen Lab \| Madison, WI \| Jun. 2025 - Present**\
+**Functional Trait Technician, Damschen Lab \| Madison, WI \| Jun. 2025 - Jan. 2026**\
 - Collected biomass and plant community data in dozens of prairie restoration sites across Wisconsin\
 - Coordinated with a small team to accomplish prairie seed collection trips in Missouri, Kansas, and Illinois\
 - Streamlined seed processing techniques for large-scale NRCS seeding study
@@ -87,6 +87,7 @@ editor: visual
 **Cofounder & Outreach Director, Environmental Science Club \| Jan 2024 - Present**\
 - Major contributor to establishing the club and writing the club constitution\
 - Coordinated and facilitated two guest speakers at club meetings during the first semester to provide career and research advice Energy Team
+- Organized club volunteer opportunities at local natural areas to foster a strong community
 :::
 :::::
 
@@ -116,4 +117,4 @@ editor: visual
 
 ## Resume PDF
 
-[Download my Resume as a PDF](media/Resume_Nov_16_2025.pdf)
+[View my Resume as a PDF](media/Resume_Jan_21_2026.pdf){target="_blank"}

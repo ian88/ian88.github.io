@@ -38,7 +38,7 @@ format:
 editor: visual
 
 
-#git checkout main
-#git pull origin main
-#git merge origin/my-new-branch
-#git push origin main
+# git checkout main
+# git pull origin main
+# git merge origin/my-new-branch
+# git push origin main

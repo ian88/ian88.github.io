@@ -9,7 +9,7 @@ date: 2025-2-26
 date-modified: last-modified
 categories: 
   - Czechia
-image: Media/campusmap.jpg
+image: "Media/campusmap.jpg"
 draft: false
 ---
 

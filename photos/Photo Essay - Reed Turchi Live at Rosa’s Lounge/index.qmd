@@ -1,0 +1,77 @@
+---
+title: "Photo Essay"
+description: "Reed Turchi Live at Rosa's Lounge"
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+image: "media/thumbnail.jpg"
+page-layout: full
+categories: 
+  - Photo Essay
+draft: false
+style: html
+---
+
+This photo essay was created for the course Documentary Photography for the Sciences at UW-Madison to practice building a compelling narrative to accompany my photography. The photo essay captures my experience watching my cousin's band perform at Rosa's Lounge in Chicago. View the photo essay below or [click to view in its original PDF format](media/Photo Essay 2 – Ian Beilfuss.pdf){target="_blank"}
+
+## Reed Turchi Live at Rosa’s Lounge
+<div style="text-align: center;">
+  <img src="media/PA221075.JPG" style="width: 75%; height: auto;">
+</div>  
+
+Reed Turchi, one of the top blues musicians in the US (and my cousin), jamming out at the last venue on the tour for his latest album, World on Fire
+
+## Welcome to Rosa's
+
+<div style="text-align: center;">
+  <img src="media/PA221010.JPG" style="width: 50%; height: auto;">
+</div>  
+
+For over 45 years Rosa’s Lounge has hosted some the top blues artists in the nation, with live shows seven days a week
+
+## Tuning Up
+
+<div style="text-align: center;">
+  <img src="media/PA221015.JPG" style="width: 75%; height: auto;">
+</div>  
+
+Properly turned instruments are essential for a great show
+
+## Ready for the Blues
+
+<div style="text-align: center;">
+  <img src="media/PA221078.JPG" style="width: 50%; height: auto;">
+</div>  
+
+Reed’s guitar, the centerpiece of the show, is ready for action
+
+## Boom Boom Pow
+
+<div style="text-align: center;">
+  <img src="media/PA221076.JPG" style="width: 75%; height: auto;">
+</div>  
+The drumkit lies in wait, moments before the start of the show
+
+## And We're Live
+
+<div style="text-align: center;">
+  <img src="media/PA221038.JPG" style="width: 75%; height: auto;">
+</div>  
+
+Reed Turchi and his band take the stage to play their hearts out
+
+## Man of the Hour
+
+<div style="text-align: center;">
+  <img src="media/PA221058.JPG" style="width: 50%; height: auto;">
+</div>  
+
+Reed Turchi takes slide guitar blues to the next level
+
+## Movin' and Groovin'
+
+<div style="text-align: center;">
+  <img src="media/PA221064.JPG" style="width: 75%; height: auto;">
+</div>  
+
+Some music is just too good to stay seated; the blues just makes you wanna dance. What a way to end the final show of the tour

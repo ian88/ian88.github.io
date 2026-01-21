@@ -10,7 +10,7 @@
 <atom:link href="https://ian88.github.io/Photography.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 20 Jan 2026 17:15:49 GMT</lastBuildDate>
+<lastBuildDate>Wed, 21 Jan 2026 18:14:14 GMT</lastBuildDate>
 <item>
   <title>Astrophotography</title>
   <dc:creator>Ian Beilfuss</dc:creator>
@@ -60,7 +60,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Astrophotography/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Astrophotography/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -136,7 +136,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Canyons/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Canyons/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -191,7 +191,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Caves/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Caves/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -204,170 +204,78 @@ img.grid-item:hover {
 
 
 <div id="listing-listing-gallery" class="quarto-listing quarto-listing-container-custom">
-<p>```{css echo=FALSE} /* Gallery Styles */ body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }</p>
-<p>.filter-nav { text-align: center; margin-bottom: 30px; padding: 20px 0; border-bottom: 1px solid #ddd; }</p>
-<p>.filter-nav button { background: none; border: none; padding: 10px 15px; margin: 0 5px; cursor: pointer; font-size: 14px; color: #666; transition: color 0.3s; }</p>
-<p>.filter-nav button:hover, .filter-nav button.active { color: #000; border-bottom: 2px solid #000; }</p>
-<p>.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; max-width: 1400px; margin: 0 auto; padding: 20px; }</p>
-<p>.gallery-item { cursor: pointer; overflow: hidden; border-radius: 4px; aspect-ratio: 1; position: relative; }</p>
-<p>.gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }</p>
-<p>.gallery-item:hover img { transform: scale(1.05); }</p>
-<p>/* Lightbox Styles */ .lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.95); z-index: 1000; align-items: center; justify-content: center; }</p>
-<p>.lightbox.active { display: flex; }</p>
-<p>.lightbox-content { position: relative; max-width: 90%; max-height: 90vh; display: flex; align-items: center; justify-content: center; }</p>
-<p>.lightbox img { max-width: 100%; max-height: 90vh; object-fit: contain; border: 3px solid white; }</p>
-<p>.lightbox-close { position: absolute; top: 20px; right: 40px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; z-index: 1001; background: none; border: none; padding: 10px; }</p>
-<p>.lightbox-close:hover { color: #ccc; }</p>
-<p>.lightbox-prev, .lightbox-next { position: absolute; top: 50%; transform: translateY(-50%); color: white; font-size: 50px; font-weight: bold; cursor: pointer; padding: 20px; background: none; border: none; z-index: 1001; transition: opacity 0.3s; }</p>
-<p>.lightbox-prev:hover, .lightbox-next:hover { opacity: 0.7; }</p>
-<p>.lightbox-prev { left: 20px; }</p>
-<p>.lightbox-next { right: 20px; }</p>
-<p>.lightbox-caption { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); color: white; background-color: rgba(0, 0, 0, 0.7); padding: 10px 20px; border-radius: 4px; font-size: 16px; }</p>
-<pre><code>
-## The Coast Gallery
-
-::: {.filter-nav}
-&lt;button class="filter-btn active" data-filter="all"&gt;Show All&lt;/button&gt;
-&lt;button class="filter-btn" data-filter="autumn"&gt;Autumn&lt;/button&gt;
-&lt;button class="filter-btn" data-filter="cold"&gt;Cold&lt;/button&gt;
-&lt;button class="filter-btn" data-filter="light"&gt;Light&lt;/button&gt;
-&lt;button class="filter-btn" data-filter="panorama"&gt;Panorama&lt;/button&gt;
-&lt;button class="filter-btn" data-filter="coast"&gt;The Coast&lt;/button&gt;
-:::
-
-::: {.gallery-grid}
-&lt;div class="gallery-item" data-category="coast light"&gt;
-  &lt;img src="gallery/Capitol.webp" alt="Coastal sunrise with rock" data-title="Morning Serenity"&gt;
-&lt;/div&gt;
-
-&lt;div class="gallery-item" data-category="panorama"&gt;
-  &lt;img src="gallery/Prague1.webp" alt="Desert dunes" data-title="Golden Dunes"&gt;
-&lt;/div&gt;
-
-&lt;div class="gallery-item" data-category="coast light"&gt;
-  &lt;img src="gallery/Prague2.webp" alt="Tidal patterns" data-title="Tidal Reflections"&gt;
-&lt;/div&gt;
-
-&lt;div class="gallery-item" data-category="coast autumn"&gt;
-  &lt;img src="gallery/Prague3.webp" alt="Sunset explosion" data-title="Sunrise Explosion"&gt;
-&lt;/div&gt;
-:::
-
-```{=html}
-
-  &amp;times;
-  ❮
-  
-    
-  
-  ❯
-  
-
-let currentImageIndex = 0;
-let currentImages = [];
-
-// Initialize gallery
-document.addEventListener('DOMContentLoaded', function() {
-  const galleryItems = document.querySelectorAll('.gallery-item');
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  
-  // Store all images
-  updateCurrentImages();
-  
-  // Add click event to gallery items
-  galleryItems.forEach((item, index) =&gt; {
-    item.addEventListener('click', function() {
-      const img = this.querySelector('img');
-      openLightbox(img.src, img.dataset.title, index);
-    });
-  });
-  
-  // Filter functionality
-  filterBtns.forEach(btn =&gt; {
-    btn.addEventListener('click', function() {
-      // Update active button
-      filterBtns.forEach(b =&gt; b.classList.remove('active'));
-      this.classList.add('active');
-      
-      const filter = this.dataset.filter;
-      
-      galleryItems.forEach(item =&gt; {
-        if (filter === 'all' || item.dataset.category.includes(filter)) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-      
-      updateCurrentImages();
-    });
-  });
-  
-  // Keyboard navigation
-  document.addEventListener('keydown', function(e) {
-    const lightbox = document.getElementById('lightbox');
-    if (lightbox.classList.contains('active')) {
-      if (e.key === 'ArrowLeft') changeImage(-1);
-      if (e.key === 'ArrowRight') changeImage(1);
-      if (e.key === 'Escape') closeLightbox();
-    }
-  });
-});
-
-function updateCurrentImages() {
-  const visibleItems = document.querySelectorAll('.gallery-item:not([style*="display: none"])');
-  currentImages = Array.from(visibleItems).map(item =&gt; {
-    const img = item.querySelector('img');
-    return {
-      src: img.src,
-      title: img.dataset.title
-    };
-  });
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
 }
-
-function openLightbox(src, title, index) {
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  const caption = document.getElementById('lightbox-caption');
-  
-  currentImageIndex = index;
-  lightboxImg.src = src;
-  caption.textContent = title;
-  lightbox.classList.add('active');
-  document.body.style.overflow = 'hidden';
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
 }
-
-function closeLightbox() {
-  const lightbox = document.getElementById('lightbox');
-  lightbox.classList.remove('active');
-  document.body.style.overflow = 'auto';
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
 }
-
-function changeImage(direction) {
-  updateCurrentImages();
-  currentImageIndex += direction;
-  
-  // Loop around
-  if (currentImageIndex &lt; 0) {
-    currentImageIndex = currentImages.length - 1;
-  } else if (currentImageIndex &gt;= currentImages.length) {
-    currentImageIndex = 0;
-  }
-  
-  const lightboxImg = document.getElementById('lightbox-img');
-  const caption = document.getElementById('lightbox-caption');
-  
-  lightboxImg.src = currentImages[currentImageIndex].src;
-  caption.textContent = currentImages[currentImageIndex].title;
+img.grid-item:hover {
+  transform: scale(1.025);
 }
-
-// Close lightbox when clicking outside the image
-document.getElementById('lightbox').addEventListener('click', function(e) {
-  if (e.target === this) {
-    closeLightbox();
-  }
-});
-</code></pre>
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href="../..\photos\Cities\media\Capitol.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Capitol.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Dubrovnik.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Dubrovnik.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Kotor.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Kotor.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Monona Terrace.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Monona Terrace.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\NYC1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\NYC2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\NYC3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\NYC5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\NYC6.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/NYC6.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\P5219993.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/P5219993.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague1.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague1.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague2.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague2.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague3.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague3.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague4.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague4.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Prague5.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Prague5.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="../..\photos\Cities\media\Seabrook Island.webp" class="lightbox" data-gallery="quarto-grid-gallery"><img src="https://ian88.github.io/photos/Cities/media/Seabrook Island.webp" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
@@ -377,7 +285,7 @@ document.getElementById('lightbox').addEventListener('click', function(e) {
  ]]></description>
   <category>Urban</category>
   <guid>https://ian88.github.io/photos/Cities/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Cities/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -474,7 +382,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Coasts/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Coasts/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -574,7 +482,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Deserts/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Deserts/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -656,7 +564,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Forests/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Forests/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -720,7 +628,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Grasslands/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Grasslands/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -781,7 +689,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Close-ups</category>
   <guid>https://ian88.github.io/photos/Misc/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Misc/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -993,8 +901,151 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Mountains/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Mountains/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Photo Essay</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This photo essay was created for the course Documentary Photography for the Sciences at UW-Madison to practice building a compelling narrative to accompany my photography. The photo essay captures the grandeur and history of the Wisconsin State Capitol. View the photo essay below or <a href="media/Photo Essay 3 – Ian Beilfuss.pdf" target="_blank">click to view in its original PDF format</a></p>
+<section id="behold-the-wisconsin-state-capitol" class="level2">
+<h2 class="anchored" data-anchor-id="behold-the-wisconsin-state-capitol">Behold: The Wisconsin State Capitol</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/PB171186.JPG" style="width: 50%; height: auto;"></p>
+</div>
+<p>Located at the heart of Madison, the Wisconsin State Capitol is one of the most iconic capitol buildings in the United States. Standing atop the Capitol is a 15’5” gilded bronze statue Wisconsin, created by the same sculpture that made the Abraham Lincoln statue in the Lincoln Memorial. In front of the Capitol, Forward stands proudly, symbolizing the State motto of “Forward” and commemorating the women’s suffrage movement</p>
+</section>
+<section id="welcome-in" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-in">Welcome In!</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/PB171218.JPG" style="width: 50%; height: auto;"></p>
+</div>
+<p>The grandeur of the State Capitol is immediately present upon walking in. Built in 1917 after the previous capitol building burned to the ground, the Capitol has stood proud as a symbol for history, architecture, and governance for over 100 years</p>
+</section>
+<section id="the-west-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="the-west-gallery">The West Gallery</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/PB171195.JPG" style="width: 50%; height: auto;"></p>
+</div>
+<p>The West Gallery of the Capitol is home to the State Assembly Chambers. A badger, the Wisconsin State Animal can be seen overlooking the gallery</p>
+</section>
+<section id="largest-dome-in-the-usa" class="level2">
+<h2 class="anchored" data-anchor-id="largest-dome-in-the-usa">Largest Dome in the USA</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/PB171191.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>Wisconsin State Capitol boasts the largest dome by volume of any Capitol in the United States, including the National Capitol. Made of granite, the only one in the United States, the dome rises 284 feet above the ground and is the tallest point in Madison</p>
+</section>
+<section id="incricacies-everywhere" class="level2">
+<h2 class="anchored" data-anchor-id="incricacies-everywhere">Incricacies Everywhere</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/PB171214.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>Detailed carvings are present throughout the Capitol building, adding beauty and complexity to the grandeur of the atrium</p>
+</section>
+<section id="scavenger-hunt" class="level2">
+<h2 class="anchored" data-anchor-id="scavenger-hunt">Scavenger Hunt</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/PB171201.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>The Capitol uses over 30 types of marble, sourced from seven states, three European countries, and one African country. Incased in the marble are fossil remains from the Precambrian age, like the starfish in this image. Visit and see if you can find the starfish, coral, nautiloid, gastropod, and others!</p>
+</section>
+<section id="curious-learn-more" class="level2">
+<h2 class="anchored" data-anchor-id="curious-learn-more">Curious? Learn More!</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/PB171203.JPG" style="width: 50%; height: auto;"></p>
+</div>
+<p>Curious about the Capitol and want to learn more about its history, architecture, and governance? The Capitol offers free 45- minute guided tours Mondays through Saturday at 9 am, 10 am, 11 am, 1 pm, 2 pm, and 3 pm, and Sundays at 1 pm, 2 pm, and 3 pm. There’s also a free museum on the 6th floor discussing the history of the Capitol. <a href="https://tours.wisconsin.gov/Default.aspx" target="_blank">You can learn more by clicking here</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Photo Essay</category>
+  <guid>https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/</guid>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Photo Essay - Behold the Wisconsin State Capitol/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Photo Essay</title>
+  <dc:creator>Ian Beilfuss</dc:creator>
+  <link>https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This photo essay was created for the course Documentary Photography for the Sciences at UW-Madison to practice building a compelling narrative to accompany my photography. The photo essay captures my experience watching my cousin’s band perform at Rosa’s Lounge in Chicago. View the photo essay below or <a href="media/Photo Essay 2 – Ian Beilfuss.pdf" target="_blank">click to view in its original PDF format</a></p>
+<section id="reed-turchi-live-at-rosas-lounge" class="level2">
+<h2 class="anchored" data-anchor-id="reed-turchi-live-at-rosas-lounge">Reed Turchi Live at Rosa’s Lounge</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221075.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>Reed Turchi, one of the top blues musicians in the US (and my cousin), jamming out at the last venue on the tour for his latest album, World on Fire</p>
+</section>
+<section id="welcome-to-rosas" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-to-rosas">Welcome to Rosa’s</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221010.JPG" style="width: 50%; height: auto;"></p>
+</div>
+<p>For over 45 years Rosa’s Lounge has hosted some the top blues artists in the nation, with live shows seven days a week</p>
+</section>
+<section id="tuning-up" class="level2">
+<h2 class="anchored" data-anchor-id="tuning-up">Tuning Up</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221015.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>Properly turned instruments are essential for a great show</p>
+</section>
+<section id="ready-for-the-blues" class="level2">
+<h2 class="anchored" data-anchor-id="ready-for-the-blues">Ready for the Blues</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221078.JPG" style="width: 50%; height: auto;"></p>
+</div>
+<p>Reed’s guitar, the centerpiece of the show, is ready for action</p>
+</section>
+<section id="boom-boom-pow" class="level2">
+<h2 class="anchored" data-anchor-id="boom-boom-pow">Boom Boom Pow</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221076.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>The drumkit lies in wait, moments before the start of the show</p>
+</section>
+<section id="and-were-live" class="level2">
+<h2 class="anchored" data-anchor-id="and-were-live">And We’re Live</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221038.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>Reed Turchi and his band take the stage to play their hearts out</p>
+</section>
+<section id="man-of-the-hour" class="level2">
+<h2 class="anchored" data-anchor-id="man-of-the-hour">Man of the Hour</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221058.JPG" style="width: 50%; height: auto;"></p>
+</div>
+<p>Reed Turchi takes slide guitar blues to the next level</p>
+</section>
+<section id="movin-and-groovin" class="level2">
+<h2 class="anchored" data-anchor-id="movin-and-groovin">Movin’ and Groovin’</h2>
+<div style="text-align: center;">
+<p><img src="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/PA221064.JPG" style="width: 75%; height: auto;"></p>
+</div>
+<p>Some music is just too good to stay seated; the blues just makes you wanna dance. What a way to end the final show of the tour</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Photo Essay</category>
+  <guid>https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/</guid>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
+  <media:content url="https://ian88.github.io/photos/Photo Essay - Reed Turchi Live at Rosa’s Lounge/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Portraits</title>
@@ -1069,7 +1120,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Portraits</category>
   <guid>https://ian88.github.io/photos/Portraits/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Portraits/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1145,7 +1196,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Sunsets/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Sunsets/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1230,7 +1281,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Landscape</category>
   <guid>https://ian88.github.io/photos/Waterfalls/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Waterfalls/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1327,7 +1378,7 @@ img.grid-item:hover {
  ]]></description>
   <category>Wildlife</category>
   <guid>https://ian88.github.io/photos/Wildlife/</guid>
-  <pubDate>Tue, 20 Jan 2026 17:15:49 GMT</pubDate>
+  <pubDate>Wed, 21 Jan 2026 18:14:14 GMT</pubDate>
   <media:content url="https://ian88.github.io/photos/Wildlife/media/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

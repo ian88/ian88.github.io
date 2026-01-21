@@ -1,0 +1,70 @@
+---
+title: "Photo Essay"
+description: "Behold: The Wisconsin State Capitol"
+author:
+  - name: Ian Beilfuss
+    url: https://ian88.github.io/
+image: "media/thumbnail.jpg"
+page-layout: full
+categories: 
+  - Photo Essay
+draft: false
+---
+
+This photo essay was created for the course Documentary Photography for the Sciences at UW-Madison to practice building a compelling narrative to accompany my photography. The photo essay captures the grandeur and history of the Wisconsin State Capitol. View the photo essay below or [click to view in its original PDF format](media/Photo Essay 3 – Ian Beilfuss.pdf){target="_blank"}
+
+## Behold: The Wisconsin State Capitol
+
+<div style="text-align: center;">
+  <img src="media/PB171186.JPG" style="width: 50%; height: auto;">
+</div>  
+
+Located at the heart of Madison, the Wisconsin State Capitol is one of the most iconic capitol buildings in the United States. Standing atop the Capitol is a 15’5” gilded bronze statue Wisconsin, created by the same sculpture that made the Abraham Lincoln statue in the Lincoln Memorial. In front of the Capitol, Forward stands proudly, symbolizing the State motto of “Forward” and commemorating the women's suffrage movement
+
+## Welcome In!
+
+<div style="text-align: center;">
+  <img src="media/PB171218.JPG" style="width: 50%; height: auto;">
+</div> 
+
+The grandeur of the State Capitol is immediately present upon walking in. Built in 1917 after the previous capitol building burned to the ground, the Capitol has stood proud as a symbol for history, architecture, and governance for over 100 years
+
+## The West Gallery
+
+<div style="text-align: center;">
+  <img src="media/PB171195.JPG" style="width: 50%; height: auto;">
+</div> 
+
+The West Gallery of the Capitol is home to the State Assembly Chambers. A badger, the Wisconsin State Animal can be seen overlooking the gallery
+
+## Largest Dome in the USA
+
+<div style="text-align: center;">
+  <img src="media/PB171191.JPG" style="width: 75%; height: auto;">
+</div> 
+
+Wisconsin State Capitol boasts the largest dome by volume of any Capitol in the United States, including the National Capitol. Made of granite, the only one in the United States, the dome rises 284 feet above the ground and is the tallest point in Madison
+
+## Incricacies Everywhere
+
+<div style="text-align: center;">
+  <img src="media/PB171214.JPG" style="width: 75%; height: auto;">
+</div> 
+
+Detailed carvings are present throughout the Capitol building, adding beauty and complexity to the grandeur of the atrium
+
+## Scavenger Hunt
+
+<div style="text-align: center;">
+  <img src="media/PB171201.JPG" style="width: 75%; height: auto;">
+</div> 
+
+The Capitol uses over 30 types of marble, sourced from seven states, three European countries, and one African country. Incased in the marble are fossil remains from the Precambrian age, like the starfish in this image. Visit and see if you can find the starfish, coral, nautiloid, gastropod, and others!
+
+## Curious? Learn More!
+
+<div style="text-align: center;">
+  <img src="media/PB171203.JPG" style="width: 50%; height: auto;">
+</div> 
+
+Curious about the Capitol and want to learn more about its history, architecture, and governance? The Capitol offers free 45- minute guided tours Mondays through Saturday at 9 am, 10 am, 11 am, 1 pm, 2 pm, and 3 pm, and Sundays at 1 pm, 2 pm, and 3 pm. There’s also a free museum on the 6th floor discussing the history of the Capitol. [You can learn more by clicking here](https://tours.wisconsin.gov/Default.aspx){target="_blank"}
