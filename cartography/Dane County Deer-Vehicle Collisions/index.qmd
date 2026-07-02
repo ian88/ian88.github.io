@@ -1,0 +1,21 @@
+---
+title: "Deer Collision Mitigation Across Dane County, Wisconsin"
+description: "A Geospatial and Behavioral Evaluation"
+format: html
+author:
+  - name: Ian Beilfuss, Nadia Nackers, and Aidan Vandre
+    url: https://ian88.github.io/
+date: 2026-05-01
+date-modified: last-modified
+image: "media/thumbnail.jpg"
+categories:
+  - Static
+  - Thematic
+draft: False
+---
+
+This semester-long collaborative research project with Nadia Nackers and Aidan Vandre for Geography 565: Undergraduate Geography Colloquium. The abstract of our paper is below:
+
+In 2021, Dane County reported 815 deer-vehicle collisions, the most of any county in Wisconsin. Our research aims to understand the landscape and roadscape variables associated with deer-vehicle collision (DVC) hotspots in Dane County, what infrastructure will be most effective in reducing collisions without restricting deer habitat range, and how current driver behaviors inform the efficacy of current and future mitigation strategies. We used a mix of survey responses, interviews, GIS spatial analysis, and ground-truthing to assess deer-vehicle collision hotspots, driver behavior, and mitigation strategies. Our findings indicate hotspots occur along almost all highways in Dane County, but mitigation is difficult due to budgetary limitations and because white-tailed deer don’t have migratory corridors. From our survey, most drivers are willing to reduce their collision chances by driving 10 mph slower. We recommend WisDOT implement variable speed limits paired with wildlife detectors and warning signs along highways in DVC hotspot locations.
+
+[click here to read the full paper](Media/Full%20Report.pdf){target="_blank"}
