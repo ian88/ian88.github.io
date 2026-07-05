@@ -10,29 +10,7 @@
 <atom:link href="https://ian88.github.io/CartographicProjects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 01 May 2026 07:00:00 GMT</lastBuildDate>
-<item>
-  <title>Deer Collision Mitigation Across Dane County, Wisconsin</title>
-  <dc:creator>Ian Beilfuss, Nadia Nackers, and Aidan Vandre</dc:creator>
-  <link>https://ian88.github.io/cartography/Dane County Deer-Vehicle Collisions/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This semester-long collaborative research project with Nadia Nackers and Aidan Vandre for Geography 565: Undergraduate Geography Colloquium. The abstract of our paper is below:</p>
-<p>In 2021, Dane County reported 815 deer-vehicle collisions, the most of any county in Wisconsin. Our research aims to understand the landscape and roadscape variables associated with deer-vehicle collision (DVC) hotspots in Dane County, what infrastructure will be most effective in reducing collisions without restricting deer habitat range, and how current driver behaviors inform the efficacy of current and future mitigation strategies. We used a mix of survey responses, interviews, GIS spatial analysis, and ground-truthing to assess deer-vehicle collision hotspots, driver behavior, and mitigation strategies. Our findings indicate hotspots occur along almost all highways in Dane County, but mitigation is difficult due to budgetary limitations and because white-tailed deer don’t have migratory corridors. From our survey, most drivers are willing to reduce their collision chances by driving 10 mph slower. We recommend WisDOT implement variable speed limits paired with wildlife detectors and warning signs along highways in DVC hotspot locations.</p>
-<p><a href="Media/Full Report.pdf" target="_blank">click here to read the full paper</a></p>
-
-
-
- ]]></description>
-  <category>Static</category>
-  <category>Thematic</category>
-  <guid>https://ian88.github.io/cartography/Dane County Deer-Vehicle Collisions/</guid>
-  <pubDate>Fri, 01 May 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://ian88.github.io/cartography/Dane County Deer-Vehicle Collisions/Media/thumbnail.jpg" medium="image" type="image/jpeg"/>
-</item>
+<lastBuildDate>Thu, 18 Dec 2025 08:00:00 GMT</lastBuildDate>
 <item>
   <title>The Long Winter</title>
   <dc:creator>Ian Beilfuss</dc:creator>

@@ -11,7 +11,7 @@ image: "Media/thumbnail.jpg"
 categories:
   - Static
   - Thematic
-draft: False
+draft: True
 ---
 
 This semester-long collaborative research project with Nadia Nackers and Aidan Vandre for Geography 565: Undergraduate Geography Colloquium. The abstract of our paper is below:
