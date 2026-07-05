@@ -7,7 +7,7 @@ author:
     url: https://ian88.github.io/
 date: 2026-05-01
 date-modified: last-modified
-image: "media/thumbnail.jpg"
+image: "Media/thumbnail.jpg"
 categories:
   - Static
   - Thematic
